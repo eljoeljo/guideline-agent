@@ -1,0 +1,1963 @@
+{ 
+    "cgp_legend": {
+    "EPES": "Ethical Purpose and Public Good; Environmental Sustainability",
+    "A&G": "Accountability & Governance",
+    "T&E": "Transparency & Explainability",
+    "FNI": "Fairness, Non-Discrimination & Inclusiveness",
+    "P&S": "Privacy & Security",
+    "V&R": "Validity & Robustness",
+    "R&S": "Reliability & Safety"
+  },
+  "questions": [
+    {
+      "id": "01",
+      "field": "q_01",
+      "lifecycle_phase": "Policy & Regulation Compliance",
+      "lifecycle_stage": "Policy & Regulation Compliance",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Comply with regulation (such as the TBS directive on automated decision-making and the Guidelines on the use of generative AI), organizational policies, and industry standards.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "02",
+      "field": "q_02",
+      "lifecycle_phase": "Policy & Regulation Compliance",
+      "lifecycle_stage": "Policy & Regulation Compliance",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Conduct an Impact Assessment early in the development process of the system. Use the TBS Algorithmic Impact Assessment Tool.\nIf yes, what was the impact level ?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_follow_up",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "03",
+      "field": "q_03",
+      "lifecycle_phase": "Policy & Regulation Compliance",
+      "lifecycle_stage": "Policy & Regulation Compliance",
+      "cgp_code": null,
+      "cgp_name": null,
+      "question": "Did you obtain approval from the security coordination committee? (includes cyber security)?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [
+        "security"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": true
+    },
+    {
+      "id": "04",
+      "field": "q_04",
+      "lifecycle_phase": "Policy & Regulation Compliance",
+      "lifecycle_stage": "Policy & Regulation Compliance",
+      "cgp_code": null,
+      "cgp_name": null,
+      "question": "Did you obtain approval from OPMIC ?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": true
+    },
+    {
+      "id": "05",
+      "field": "q_05",
+      "lifecycle_phase": "Policy & Regulation Compliance",
+      "lifecycle_stage": "Policy & Regulation Compliance",
+      "cgp_code": null,
+      "cgp_name": null,
+      "question": "Did you obtain approval from the enterprise architecture (EARB) committee ?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": true
+    },
+    {
+      "id": "06",
+      "field": "q_06",
+      "lifecycle_phase": "Procurement",
+      "lifecycle_stage": "Procurement Evaluation Phase; Strategic Model Procurement Assessment; Model Selection Strategy: Open Source vs. Proprietary; Cost and Functional Impact Assessment",
+      "cgp_code": null,
+      "cgp_name": null,
+      "question": "Open Source vs. Proprietary Models/Systems:\na. What factors influenced the decision to choose an open-source or proprietary generative AI model for the project?\nb. How does the chosen model align with the organization's strategic goals and long-term sustainability?\nc. If open source is chosen, what are the specific advantages (and drawbacks) of using open-source generative AI models for the organization's objectives?",
+      "subquestions": [
+        "What factors influenced the decision to choose an open-source or proprietary generative AI model for the project?",
+        "How does the chosen model align with the organization's strategic goals and long-term sustainability?",
+        "If open source is chosen, what are the specific advantages (and drawbacks) of using open-source generative AI models for the organization's objectives?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai",
+        "third_party"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": true
+    },
+    {
+      "id": "07",
+      "field": "q_07",
+      "lifecycle_phase": "Procurement",
+      "lifecycle_stage": "Procurement Evaluation Phase; Strategic Model Procurement Assessment; Model Selection Strategy: Open Source vs. Proprietary; Cost and Functional Impact Assessment",
+      "cgp_code": null,
+      "cgp_name": null,
+      "question": "Cost and Resource Considerations:\na. Are there variations in costs based on factors such as prompt lengths, frequency of usage, or other usage parameters?\nb. To what extent can the system parameters, such as prompt lengths or other configuration settings, be adjusted to meet specific requirements?\nc. Are there additional costs or limitations associated with customizing the model or system's behavior?",
+      "subquestions": [
+        "Are there variations in costs based on factors such as prompt lengths, frequency of usage, or other usage parameters?",
+        "To what extent can the system parameters, such as prompt lengths or other configuration settings, be adjusted to meet specific requirements?",
+        "Are there additional costs or limitations associated with customizing the model or system's behavior?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": true
+    },
+    {
+      "id": "08",
+      "field": "q_08",
+      "lifecycle_phase": "Procurement",
+      "lifecycle_stage": "Procurement Evaluation Phase; Strategic Model Procurement Assessment; Model Selection Strategy: Open Source vs. Proprietary; Cost and Functional Impact Assessment",
+      "cgp_code": null,
+      "cgp_name": null,
+      "question": "Undesired Model Behaviors:\na. What filtering mechanisms or strategies are in place to mitigate undesired model behaviors, such as hallucination or generation of inappropriate content, when using the model?\nb. How frequently are these filtering mechanisms updated to adapt to evolving challenges?",
+      "subquestions": [
+        "What filtering mechanisms or strategies are in place to mitigate undesired model behaviors, such as hallucination or generation of inappropriate content, when using the model?",
+        "How frequently are these filtering mechanisms updated to adapt to evolving challenges?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": true
+    },
+    {
+      "id": "09",
+      "field": "q_09",
+      "lifecycle_phase": "Procurement",
+      "lifecycle_stage": "Procurement Evaluation Phase; Strategic Model Procurement Assessment; Model Selection Strategy: Open Source vs. Proprietary; Cost and Functional Impact Assessment",
+      "cgp_code": null,
+      "cgp_name": null,
+      "question": "Model Capabilities:\nb. Can the models be fine-tuned or customized to suit specific business requirements?\nc. What languages and domains are supported by the language models?",
+      "subquestions": [
+        "Can the models be fine-tuned or customized to suit specific business requirements?",
+        "What languages and domains are supported by the language models?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": true
+    },
+    {
+      "id": "10",
+      "field": "q_10",
+      "lifecycle_phase": "Procurement",
+      "lifecycle_stage": "Procurement Evaluation Phase; Strategic Model Procurement Assessment; Model Selection Strategy: Open Source vs. Proprietary; Cost and Functional Impact Assessment",
+      "cgp_code": null,
+      "cgp_name": null,
+      "question": "Cost and Licensing:\na. What is the pricing model for the generative AI tools, and are there any hidden costs?\nb. What licensing agreements are involved, and what are the terms for renewals, upgrades, and support?",
+      "subquestions": [
+        "What is the pricing model for the generative AI tools, and are there any hidden costs?",
+        "What licensing agreements are involved, and what are the terms for renewals, upgrades, and support?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai",
+        "third_party"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": true
+    },
+    {
+      "id": "11",
+      "field": "q_11",
+      "lifecycle_phase": "Procurement",
+      "lifecycle_stage": "Procurement Evaluation Phase; Strategic Model Procurement Assessment; Model Selection Strategy: Open Source vs. Proprietary; Cost and Functional Impact Assessment",
+      "cgp_code": null,
+      "cgp_name": null,
+      "question": "Open Source Models - Community Support and Documentation:\na. How active is the community around the chosen open-source generative AI model, and what level of support and documentation is available?\nb. What measures are in place to ensure that the organization stays informed about updates, bug fixes, and improvements from the open-source community?",
+      "subquestions": [
+        "How active is the community around the chosen open-source generative AI model, and what level of support and documentation is available?",
+        "What measures are in place to ensure that the organization stays informed about updates, bug fixes, and improvements from the open-source community?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai",
+        "third_party",
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": true
+    },
+    {
+      "id": "12",
+      "field": "q_12",
+      "lifecycle_phase": "Procurement",
+      "lifecycle_stage": "Procurement Evaluation Phase; Strategic Model Procurement Assessment; Model Selection Strategy: Open Source vs. Proprietary; Cost and Functional Impact Assessment",
+      "cgp_code": null,
+      "cgp_name": null,
+      "question": "Documentation and Support:\na. What kind of documentation and training materials are provided by the vendor?\nb. What levels of support and maintenance are offered post-procurement?",
+      "subquestions": [
+        "What kind of documentation and training materials are provided by the vendor?",
+        "What levels of support and maintenance are offered post-procurement?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "third_party",
+        "monitoring",
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": true
+    },
+    {
+      "id": "13",
+      "field": "q_13",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "EPES",
+      "cgp_name": "Ethical Purpose and Public Good; Environmental Sustainability",
+      "question": "Can the problem at hand be resolved without the use of generative AI ?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [
+        "generative_ai"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "14",
+      "field": "q_14",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Ensure responsibilities have been assigned among various stakeholders for each step of the AI process: throughout development, deployment, and production phases",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "deployment"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "15",
+      "field": "q_15",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Ensure clear ownership for each stage of the generative AI application life cycle as well as corporate accountability for potential failures",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "16",
+      "field": "q_16",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Ensure there is an independent review process conducted to ensure that the AI/ML solution and its outcomes align with ethical (, legal) and technical standards",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "human_oversight"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "17",
+      "field": "q_17",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Ensure stakeholders are informed and engaged throughout the AI/ML process, including updates on changes, risks, and decision-making.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "18",
+      "field": "q_18",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Ensure documentation throughout the life cycle of all instances of third-party models/systems in use across systems",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "third_party",
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "19",
+      "field": "q_19",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Ensure transparency and provide best practices and limitations to end users interacting with proprietary or third-party models/systems, including open source",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "third_party",
+        "external_facing"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "20",
+      "field": "q_20",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Require sign-off from relevant parties before moving to the next stage of pipeline build",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "human_oversight"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "21",
+      "field": "q_21",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "FNI",
+      "cgp_name": "Fairness, Non-Discrimination & Inclusiveness",
+      "question": "How is fairness ensured in the design (stage) to prevent discrimination?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "fairness"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "22",
+      "field": "q_22",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "FNI",
+      "cgp_name": "Fairness, Non-Discrimination & Inclusiveness",
+      "question": "Gather relevant stakeholders prior to develop and map out expected impacts and potential unintended consequences, including potential risks, their impact on Corporate Risk Profile, etc.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "23",
+      "field": "q_23",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "EPES",
+      "cgp_name": "Ethical Purpose and Public Good; Environmental Sustainability",
+      "question": "a. What considerations are given to environmental sustainability in the system design?\nb. Are there measures taken to minimize the carbon footprint associated with the AI system's development and operations?",
+      "subquestions": [
+        "What considerations are given to environmental sustainability in the system design?",
+        "Are there measures taken to minimize the carbon footprint associated with the AI system's development and operations?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "24",
+      "field": "q_24",
+      "lifecycle_phase": "Business Understanding Phase",
+      "lifecycle_stage": "Business Understanding & System Design Stages",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "a. How is knowledge about the AI system's transferred to the stakeholders?\nb. Are there measures in place to ensure that all relevant stakeholders are informed? (follows the above question)",
+      "subquestions": [
+        "How is knowledge about the AI system's transferred to the stakeholders?",
+        "Are there measures in place to ensure that all relevant stakeholders are informed? (follows the above question)"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "25",
+      "field": "q_25",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "P&S",
+      "cgp_name": "Privacy & Security",
+      "question": "How is personal information in the fine-tuning data documented and anonymized in accordance with regulations and policies? Please elaborate on the procedures for handling user data to ensure privacy during the development phase.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "personal_data",
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "26",
+      "field": "q_26",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "FNI",
+      "cgp_name": "Fairness, Non-Discrimination & Inclusiveness",
+      "question": "What steps are implemented to identify and address biases in the training or fine-tuning data?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "fairness"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "27",
+      "field": "q_27",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "FNI",
+      "cgp_name": "Fairness, Non-Discrimination & Inclusiveness",
+      "question": "Document potential sensitive attributes in datasets: CCT Score for the fine tuning data, approvals from the client to handle protected B, approval from the data governance support team (Senior Management Checklist).",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "fairness",
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "28",
+      "field": "q_28",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "FNI",
+      "cgp_name": "Fairness, Non-Discrimination & Inclusiveness",
+      "question": "Check for proxy variables against sensitive attributes in fine tuning data and engineered features",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "fairness"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "29",
+      "field": "q_29",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "FNI",
+      "cgp_name": "Fairness, Non-Discrimination & Inclusiveness",
+      "question": "Employ data bias mitigation as required (i.e. remove proxy variables, weight data, or remove encodings)",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "fairness"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "30",
+      "field": "q_30",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "If using data from third-party vendors, ensure they adhere to responsible data practices and have mechanisms in place to verify the data's quality and compliance. CCT Score for the fine tuning data, approvals from the client to handle protected B, approval from the data governance support team (Senior Management Checklist).",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "third_party"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "31",
+      "field": "q_31",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Document all datasets used for fine-tuning, including how the data was collected, whether it is representative of the population of interest, and with what intent it was collected.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "32",
+      "field": "q_32",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Implement data quality checks and validation processes to ensure that the data used for AI is accurate, reliable, and up to date.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "33",
+      "field": "q_33",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Document the rationale for and steps taken toward data cleansing, transformation, or other feature engineering.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "classical_ml",
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "34",
+      "field": "q_34",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "How is adversarial testing, such as red-teaming, utilized to identify vulnerabilities? Specifically, elaborate on the measures taken to mitigate risks related to backdoor and data poisoning attacks, adversarial training inputs, watermarking, evasion attacks, etc., within the training and fine-tuning data (if applicable).",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "security"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "35",
+      "field": "q_35",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "Perform an assessment of cyber-security risk and implement proportionate measures to mitigate risks, including with regard to data poisoning and evasion attacks.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "security"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "36",
+      "field": "q_36",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "P&S",
+      "cgp_name": "Privacy & Security",
+      "question": "Where is user data stored?\nIs the storage compliant with data protection regulations?\nIs the data encrypted during storage?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "personal_data"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "37",
+      "field": "q_37",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "P&S",
+      "cgp_name": "Privacy & Security",
+      "question": "How is user consent obtained?\nIs it clear to users how their data will be used?\nCan users easily revoke their consent?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "personal_data"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "38",
+      "field": "q_38",
+      "lifecycle_phase": "Data",
+      "lifecycle_stage": "Data Sourcing/Acquisition; Data Selection; Data Preparation and Processing",
+      "cgp_code": "P&S",
+      "cgp_name": "Privacy & Security",
+      "question": "Is user data used to retrain or fine tune the model?\nIf yes, how is this process managed to ensure privacy and security?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [
+        "personal_data",
+        "security"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "39",
+      "field": "q_39",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "Ensure robustness by evaluating models on real-world datasets and use relevant benchmarks before deployment and confirm attainment of performance metrics",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "deployment"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "40",
+      "field": "q_40",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Provide documentation on the selection of model/system/tool parameters, including details on specific parameters such as the choice of temperature. Clarify the rationale behind the chosen parameters.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "41",
+      "field": "q_41",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "Integrate unit tests and debugging into the model/system/tool build process",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "42",
+      "field": "q_42",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "P&S",
+      "cgp_name": "Privacy & Security",
+      "question": "Ensure risk mitigation measures are implemented so that models/applications cannot be misappropriated or altered by malicious actors during pre-training or fine tuning stages.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "43",
+      "field": "q_43",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "Evaluate models/systems/tools in various adversarial attacks, data or concept drift.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "security",
+        "monitoring"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "44",
+      "field": "q_44",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "Employ adversarial testing (i.e., red-teaming) to identify vulnerabilities during development and make AI systems resilient, namely risks related to hallucination in generative AI applications, bias and discrimination, LLM security and privacy, especially those related to various attack vectors.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai",
+        "personal_data",
+        "security",
+        "fairness"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "45",
+      "field": "q_45",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "What steps and filtering mechanisms are implemented to ensure the validity and robustness of the AI system's responses?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "46",
+      "field": "q_46",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "Use a wide variety of testing methods across a spectrum of tasks and contexts prior to deployment to measure performance and ensure robustness",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "deployment"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "47",
+      "field": "q_47",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "FNI",
+      "cgp_name": "Fairness, Non-Discrimination & Inclusiveness",
+      "question": "a. How is the AI system tested for biases?\nb. What steps are taken to ensure fairness in interactions?",
+      "subquestions": [
+        "How is the AI system tested for biases?",
+        "What steps are taken to ensure fairness in interactions?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "fairness"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "48",
+      "field": "q_48",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Implement version control for your ML models/systems and codebase to track changes and ensure reproducibility.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "49",
+      "field": "q_49",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "Implement mechanisms to handle jailbreaking and prompt injection attacks and seek clarification when necessary.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai",
+        "security"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "50",
+      "field": "q_50",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "(Information Retrieval)\nImplement mechanisms to handle ambiguous queries and seek clarification when necessary.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "information_retrieval"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "51",
+      "field": "q_51",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "(Information Retrieval)\na. Prioritize relevance in search results based on user intent and context.\nb. Regularly evaluate and update ranking algorithms to maintain result quality.\nc. Incorporate user feedback to continuously refine and improve result rankings.",
+      "subquestions": [
+        "(Information Retrieval)",
+        "Prioritize relevance in search results based on user intent and context.",
+        "Regularly evaluate and update ranking algorithms to maintain result quality.",
+        "Incorporate user feedback to continuously refine and improve result rankings."
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "information_retrieval"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "52",
+      "field": "q_52",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "(Information Retrieval)\na. Implement user feedback loops to gather input on the relevance of search results.\nb. Actively consider and incorporate user suggestions for system improvements.\nc. Communicate changes made based on user feedback to enhance transparency.",
+      "subquestions": [
+        "(Information Retrieval)",
+        "Implement user feedback loops to gather input on the relevance of search results.",
+        "Actively consider and incorporate user suggestions for system improvements.",
+        "Communicate changes made based on user feedback to enhance transparency."
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "information_retrieval"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "53",
+      "field": "q_53",
+      "lifecycle_phase": "Development",
+      "lifecycle_stage": "Pre-Modeling & Modeling",
+      "cgp_code": "P&S",
+      "cgp_name": "Privacy & Security",
+      "question": "What security protocols are implemented during the development of the AI system?\nHow is the development environment protected against cyber threats?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "security"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "54",
+      "field": "q_54",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Ensure to inform users of the system (both internally and public facing) that they are interacting with an AI system which can create information that will require fact checking.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "external_facing"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "55",
+      "field": "q_55",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Ensure that any externally facing AI system has a clearly visible indicator that it is ML-driven, LLM or other.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai",
+        "external_facing"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "56",
+      "field": "q_56",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Ensure that any externally facing AI system has a clearly visible disclaimer on what personal data it collects and how the data will be used",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "personal_data",
+        "external_facing"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "57",
+      "field": "q_57",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Develop reporting that provides full documentation of the AI pipeline, all relevant decisions taken during build, and steps taken as part of the responsible AI framework.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "58",
+      "field": "q_58",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Provide clear guidelines on the use and intended purposes of the AI system, as well as those use cases for which it should not be employed.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "59",
+      "field": "q_59",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Provide a mechanism for recourse or feedback if an end user is not satisfied with outcomes and review this feedback in a consistent manner.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "external_facing"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "60",
+      "field": "q_60",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Maintain a database of reported incidents after deployment, and provide updates as needed to ensure effective mitigation measures",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "deployment",
+        "monitoring"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "61",
+      "field": "q_61",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "a. How does the AI system explain its responses to users?\nb. Can the model/system/tool's decisions be understood and interpreted by non-experts?",
+      "subquestions": [
+        "How does the AI system explain its responses to users?",
+        "Can the model/system/tool's decisions be understood and interpreted by non-experts?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "62",
+      "field": "q_62",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Provide explanations (where possible) for new predictions from all deployed models/systems/tools.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "classical_ml",
+        "deployment"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "63",
+      "field": "q_63",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "FNI",
+      "cgp_name": "Fairness, Non-Discrimination & Inclusiveness",
+      "question": "Measure model/system/tool fairness in accordance with set guidelines when pipeline is in production",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "fairness",
+        "deployment"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "64",
+      "field": "q_64",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "R&S",
+      "cgp_name": "Reliability & Safety",
+      "question": "Continuously document requirements and specifics of when and how a model or output can be used",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "65",
+      "field": "q_65",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "P&S",
+      "cgp_name": "Privacy & Security",
+      "question": "Regularly check model/system/tool outputs for copyrighted or sensitive data",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "66",
+      "field": "q_66",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "P&S",
+      "cgp_name": "Privacy & Security",
+      "question": "How is user consent obtained and managed during deployment?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "personal_data",
+        "deployment"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "67",
+      "field": "q_67",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "How is the development team held accountable for the system's deployment?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "deployment"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "68",
+      "field": "q_68",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Is there a governance structure in place to oversee deployment activities?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [
+        "deployment"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "69",
+      "field": "q_69",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Publish information on capabilities and limitations of the system",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "70",
+      "field": "q_70",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Publish a description of the types of training data used to develop the system, as well as measures taken to identify and mitigate risks.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "classical_ml"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "71",
+      "field": "q_71",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Is there comprehensive documentation for the AI system's architecture, design, and functionality?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "72",
+      "field": "q_72",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "How is documentation updated with changes to the system?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "documentation"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "73",
+      "field": "q_73",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "T&E",
+      "cgp_name": "Transparency & Explainability",
+      "question": "Is there a system in place to escalate complex queries from end users to a human agent?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [
+        "human_oversight"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "74",
+      "field": "q_74",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "Employ adversarial testing (i.e., red-teaming) to identify vulnerabilities at the deployment stage",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "security",
+        "deployment"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "75",
+      "field": "q_75",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "FNI",
+      "cgp_name": "Fairness, Non-Discrimination & Inclusiveness",
+      "question": "Are there features that cater to diverse user demographics?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "76",
+      "field": "q_76",
+      "lifecycle_phase": "Deployment",
+      "lifecycle_stage": "Deployment",
+      "cgp_code": "FNI",
+      "cgp_name": "Fairness, Non-Discrimination & Inclusiveness",
+      "question": "Non-functional requirements: Obtain the necessary approvals for deployment to\na. Ensure accessibility features for users with disabilities, such as screen readers and keyboard navigation.\nb. Provide support for multiple languages and diverse linguistic expressions.\nc. Test the system with users from different linguistic backgrounds to ensure inclusivity.",
+      "subquestions": [
+        "Non-functional requirements: Obtain the necessary approvals for deployment to",
+        "Ensure accessibility features for users with disabilities, such as screen readers and keyboard navigation.",
+        "Provide support for multiple languages and diverse linguistic expressions.",
+        "Test the system with users from different linguistic backgrounds to ensure inclusivity."
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "deployment"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "77",
+      "field": "q_77",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Is there a system in place to monitor the AI systems performance over time, including drifts and potential risks? Describe the features of such system.",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [
+        "monitoring"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "78",
+      "field": "q_78",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "R&S",
+      "cgp_name": "Reliability & Safety",
+      "question": "Collect and analyse model/system/tool outputs on a regular basis to ensure model consistency on key metrics. Describe those metrics.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "79",
+      "field": "q_79",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "R&S",
+      "cgp_name": "Reliability & Safety",
+      "question": "Regularly review and assess generative model user prompts to ensure usage remains aligned with intent (if applicable)",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "80",
+      "field": "q_80",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "R&S",
+      "cgp_name": "Reliability & Safety",
+      "question": "a. How are security vulnerabilities identified and addressed?\nb. Is there a process for regularly updating and patching security features?",
+      "subquestions": [
+        "How are security vulnerabilities identified and addressed?",
+        "Is there a process for regularly updating and patching security features?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "security"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "81",
+      "field": "q_81",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "R&S",
+      "cgp_name": "Reliability & Safety",
+      "question": "a. What measures are in place to continuously monitor and respond to security incidents? What are the data retention policies?\nb. Is there a protocol for informing users in case of a data breach?",
+      "subquestions": [
+        "What measures are in place to continuously monitor and respond to security incidents? What are the data retention policies?",
+        "Is there a protocol for informing users in case of a data breach?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "security",
+        "monitoring"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "82",
+      "field": "q_82",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "R&S",
+      "cgp_name": "Reliability & Safety",
+      "question": "Are there fail-safe mechanisms to handle unexpected or erroneous situations?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "83",
+      "field": "q_83",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "P&S",
+      "cgp_name": "Privacy & Security",
+      "question": "How is user data stored, and for how long? Is the storage compliant with privacy regulations?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "personal_data"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "84",
+      "field": "q_84",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "P&S",
+      "cgp_name": "Privacy & Security",
+      "question": "Are there mechanisms for ongoing monitoring of data security and retention policies?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [
+        "security",
+        "monitoring"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "85",
+      "field": "q_85",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "a. What metrics are monitored for continuous improvement of the AI system's performance?\nb. How is user feedback incorporated for improvements?",
+      "subquestions": [
+        "What metrics are monitored for continuous improvement of the AI system's performance?",
+        "How is user feedback incorporated for improvements?"
+      ],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "monitoring"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "86",
+      "field": "q_86",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "V&R",
+      "cgp_name": "Validity & Robustness",
+      "question": "Employ adversarial testing (i.e., red-teaming) to identify vulnerabilities during maintenance and monitoring. Explain the envisioned attack models, e.g.,model theft (ML/AI), prompt injection, watermarking, phishing, etc.",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [
+        "generative_ai",
+        "classical_ml",
+        "security",
+        "monitoring"
+      ],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "87",
+      "field": "q_87",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "R&S",
+      "cgp_name": "Reliability & Safety",
+      "question": "How are unintended risks identified, addressed, and rectified?",
+      "subquestions": [],
+      "answer_type": "long_text",
+      "choices": [],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    },
+    {
+      "id": "88",
+      "field": "q_88",
+      "lifecycle_phase": "Maintenance & Monitoring",
+      "lifecycle_stage": "Maintenance & Monitoring",
+      "cgp_code": "A&G",
+      "cgp_name": "Accountability & Governance",
+      "question": "Are there mechanisms to update the AI system to remain compliant with evolving regulations?",
+      "subquestions": [],
+      "answer_type": "yes_no_with_explanation",
+      "choices": [
+        "yes",
+        "no",
+        "not_sure"
+      ],
+      "tags": [],
+      "applicability": {
+        "status": "unmapped",
+        "applies_if": [],
+        "notes": "Add deterministic conditions after reviewing this question against the canonical project."
+      },
+      "needs_review": false
+    }
+  ]
+}

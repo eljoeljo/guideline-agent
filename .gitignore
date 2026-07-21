@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Runtime and generated data
+agent/.adk/
+data/decision_trace.jsonl
+data/user_responses.json

@@ -1,0 +1,40 @@
+{
+  "project_name": "Housing Price Prediction Model",
+  "project_description": "A supervised regression system that predicts residential property prices from historical housing data.",
+  "lifecycle_status": "development",
+  "project_type": "classical_ml",
+  "uses_ai_or_ml": true,
+  "uses_classical_ml": true,
+  "uses_generative_ai": false,
+  "uses_llm": false,
+  "uses_agents": false,
+  "uses_information_retrieval": false,
+  "trains_model": true,
+  "fine_tunes_model": false,
+  "uses_third_party_model": false,
+  "uses_open_source_software": true,
+  "uses_external_pretrained_model": false,
+  "uses_foundation_model": false,
+  "uses_open_source_foundation_model": false,
+  "trains_model_from_scratch": true,
+  "uses_personal_data": false,
+  "uses_third_party_data": false,
+  "externally_facing": false,
+  "interacts_with_end_users": false,
+  "makes_or_supports_decisions": true,
+  "requires_human_oversight": true,
+  "output_type": "numeric_prediction",
+  "generates_free_text": false,
+  "output_may_contain_personal_data": false,
+  "models_tested": [
+    "linear_regression",
+    "random_forest",
+    "xgboost"
+  ],
+  "evidence": {
+    "uses_generative_ai": "The project overview describes only supervised regression models.",
+    "uses_llm": "No language model is used.",
+    "trains_model": "The team trains regression models using historical property data."
+  },
+  "uses_sensitive_data": false
+}
