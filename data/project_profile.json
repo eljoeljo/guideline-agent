@@ -36,5 +36,12 @@
     "uses_llm": "No language model is used.",
     "trains_model": "The team trains regression models using historical property data."
   },
-  "uses_sensitive_data": false
+  "uses_sensitive_data": false,
+  "division_or_section": null,
+  "project_manager": null,
+  "contact_person": null,
+  "reviewer": null,
+  "planned_for_deployment": null,
+  "uses_confidential_data": null,
+  "uses_procurement": null
 }

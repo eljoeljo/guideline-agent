@@ -1,0 +1,16 @@
+Housing Price Prediction Model
+
+This project develops supervised machine learning models to predict residential
+property prices using historical housing market data.
+
+The project evaluates Linear Regression, Random Forest, and XGBoost.
+
+Models are trained from scratch using internal datasets.
+
+The system produces numeric price predictions.
+
+The project is currently in development.
+
+The project is intended for internal Statistics Canada analysts.
+
+Human oversight is required before predictions are used.

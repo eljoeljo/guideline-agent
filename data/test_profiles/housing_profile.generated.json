@@ -1,0 +1,108 @@
+{
+  "project_profile": {
+    "project_name": "Housing Price Prediction Model",
+    "project_description": "A supervised regression system that predicts residential property prices from historical housing data.",
+    "division_or_section": null,
+    "project_manager": null,
+    "contact_person": null,
+    "reviewer": null,
+    "lifecycle_status": "development",
+    "project_type": "classical_ml",
+    "uses_ai_or_ml": true,
+    "uses_classical_ml": true,
+    "uses_generative_ai": false,
+    "uses_llm": false,
+    "uses_agents": false,
+    "uses_information_retrieval": false,
+    "trains_model": true,
+    "fine_tunes_model": false,
+    "uses_third_party_model": false,
+    "uses_open_source_software": true,
+    "uses_external_pretrained_model": false,
+    "uses_foundation_model": false,
+    "uses_open_source_foundation_model": false,
+    "trains_model_from_scratch": true,
+    "uses_personal_data": null,
+    "uses_sensitive_data": null,
+    "uses_confidential_data": null,
+    "uses_third_party_data": false,
+    "uses_procurement": false,
+    "externally_facing": false,
+    "interacts_with_end_users": false,
+    "makes_or_supports_decisions": true,
+    "requires_human_oversight": true,
+    "planned_for_deployment": true,
+    "output_type": "numeric_prediction",
+    "generates_free_text": false,
+    "output_may_contain_personal_data": null,
+    "models_tested": [
+      "linear_regression",
+      "random_forest",
+      "xgboost"
+    ]
+  },
+  "extraction_metadata": {
+    "source_documents": [
+      {
+        "document_id": "housing_project_overview",
+        "file_name": "housing_project_overview.txt"
+      }
+    ],
+    "field_evidence": {
+      "project_name": [
+        {
+          "document_id": "housing_project_overview",
+          "excerpt": "Housing Price Prediction Model"
+        }
+      ],
+      "uses_classical_ml": [
+        {
+          "document_id": "housing_project_overview",
+          "excerpt": "The project evaluates linear regression, random forest, and XGBoost models."
+        }
+      ],
+      "trains_model": [
+        {
+          "document_id": "housing_project_overview",
+          "excerpt": "The team trains regression models using historical housing data."
+        }
+      ]
+    },
+    "field_confidence": {
+      "project_name": 0.99,
+      "project_description": 0.98,
+      "uses_classical_ml": 0.99,
+      "trains_model": 0.98,
+      "uses_personal_data": 0.0,
+      "uses_sensitive_data": 0.0,
+      "uses_confidential_data": 0.0
+    },
+    "field_status": {
+      "project_name": "explicit",
+      "project_description": "explicit",
+      "uses_classical_ml": "explicit",
+      "trains_model": "explicit",
+      "uses_personal_data": "unresolved",
+      "uses_sensitive_data": "unresolved",
+      "uses_confidential_data": "unresolved"
+    },
+    "unresolved_fields": [
+      {
+        "field": "uses_personal_data",
+        "reason": "The source describes historical housing data but does not state whether it contains identifiable information.",
+        "clarification_question": "Does the project use identifiable personal information?"
+      },
+      {
+        "field": "uses_sensitive_data",
+        "reason": "The source does not describe whether sensitive attributes are present.",
+        "clarification_question": "Does the project use sensitive attributes or sensitive data?"
+      },
+      {
+        "field": "uses_confidential_data",
+        "reason": "The source does not specify the confidentiality classification of the data.",
+        "clarification_question": "Does the project acquire, use, or handle confidential data?"
+      }
+    ],
+    "document_summary": "The project develops and evaluates classical supervised regression models for housing-price prediction."
+  }
+}

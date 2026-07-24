@@ -1,0 +1,291 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "project_profile.schema.json",
+  "title": "Generated Project Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project_profile",
+    "extraction_metadata"
+  ],
+  "properties": {
+    "project_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "project_name",
+        "project_description",
+        "lifecycle_status",
+        "project_type",
+        "uses_ai_or_ml",
+        "uses_classical_ml",
+        "uses_generative_ai",
+        "uses_llm",
+        "uses_agents",
+        "uses_information_retrieval",
+        "trains_model",
+        "fine_tunes_model",
+        "uses_third_party_model",
+        "uses_open_source_software",
+        "uses_external_pretrained_model",
+        "uses_foundation_model",
+        "uses_open_source_foundation_model",
+        "trains_model_from_scratch",
+        "uses_personal_data",
+        "uses_sensitive_data",
+        "uses_confidential_data",
+        "uses_third_party_data",
+        "uses_procurement",
+        "externally_facing",
+        "interacts_with_end_users",
+        "makes_or_supports_decisions",
+        "requires_human_oversight",
+        "planned_for_deployment",
+        "output_type",
+        "generates_free_text",
+        "output_may_contain_personal_data",
+        "models_tested",
+        "division_or_section",
+        "project_manager",
+        "contact_person",
+        "reviewer"
+      ],
+      "properties": {
+        "project_name": {
+          "type": ["string", "null"]
+        },
+        "project_description": {
+          "type": ["string", "null"]
+        },
+        "division_or_section": {
+          "type": ["string", "null"]
+        },
+        "project_manager": {
+          "type": ["string", "null"]
+        },
+        "contact_person": {
+          "type": ["string", "null"]
+        },
+        "reviewer": {
+          "type": ["string", "null"]
+        },
+        "lifecycle_status": {
+          "type": ["string", "null"],
+          "enum": [
+            "planning",
+            "development",
+            "testing",
+            "deployment",
+            "production",
+            "retired",
+            null
+          ]
+        },
+        "project_type": {
+          "type": ["string", "null"],
+          "enum": [
+            "statistical_model",
+            "classical_ml",
+            "generative_ai",
+            "ai_agent",
+            "hybrid",
+            null
+          ]
+        },
+        "uses_ai_or_ml": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_classical_ml": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_generative_ai": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_llm": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_agents": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_information_retrieval": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "trains_model": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "fine_tunes_model": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_third_party_model": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_open_source_software": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_external_pretrained_model": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_foundation_model": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_open_source_foundation_model": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "trains_model_from_scratch": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_personal_data": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_sensitive_data": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_confidential_data": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_third_party_data": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "uses_procurement": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "externally_facing": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "interacts_with_end_users": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "makes_or_supports_decisions": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "requires_human_oversight": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "planned_for_deployment": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "output_type": {
+          "type": ["string", "null"]
+        },
+        "generates_free_text": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "output_may_contain_personal_data": {
+          "$ref": "#/$defs/nullableBoolean"
+        },
+        "models_tested": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "extraction_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_documents",
+        "field_evidence",
+        "field_confidence",
+        "field_status",
+        "unresolved_fields",
+        "document_summary"
+      ],
+      "properties": {
+        "source_documents": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "document_id",
+              "file_name"
+            ],
+            "properties": {
+              "document_id": {
+                "type": "string"
+              },
+              "file_name": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "field_evidence": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "document_id",
+                "excerpt"
+              ],
+              "properties": {
+                "document_id": {
+                  "type": "string"
+                },
+                "excerpt": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "field_confidence": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "field_status": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "enum": [
+              "explicit",
+              "inferred",
+              "unresolved"
+            ]
+          }
+        },
+        "unresolved_fields": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "field",
+              "reason",
+              "clarification_question"
+            ],
+            "properties": {
+              "field": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "clarification_question": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "document_summary": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "nullableBoolean": {
+      "type": ["boolean", "null"]
+    }
+  }
+}
