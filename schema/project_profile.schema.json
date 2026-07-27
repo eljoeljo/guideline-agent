@@ -191,7 +191,8 @@
         "field_confidence",
         "field_status",
         "unresolved_fields",
-        "document_summary"
+        "document_summary",
+        "clarification_groups"
       ],
       "properties": {
         "source_documents": {
@@ -279,7 +280,38 @@
         },
         "document_summary": {
           "type": "string"
-        }
+        },
+        
+        "clarification_groups": {
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "group_id",
+      "question",
+      "resolves_fields"
+    ],
+    "properties": {
+      "group_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "question": {
+        "type": "string",
+        "minLength": 1
+      },
+      "resolves_fields": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      }
+    }
+  }
+}
       }
     }
   },

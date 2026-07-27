@@ -125,6 +125,43 @@ rollout, operationalization, launch, or intended operational use.
 the extracted evidence. It may summarize supported facts, but must not add
 unstated purposes, decisions, risks, users, or deployment intentions.
 
+22. Keep unresolved_fields at the individual field level for traceability.
+
+23. Also produce clarification_groups for the questions that should actually
+    be shown to the user.
+
+24. Group closely related unresolved fields when one concise question can
+    resolve them together.
+
+25. Each clarification group must contain:
+    - a stable snake_case group_id
+    - one concise user-facing question
+    - every field the answer is expected to resolve
+
+26. Do not include fields in clarification_groups when they are already
+    resolved as true or false.
+
+27. Prefer approximately 4 to 8 clarification groups rather than one question
+    per unresolved field.
+
+28. Do not combine unrelated concepts merely to reduce the number of
+    questions. A user must be able to answer each grouped question clearly.
+    
+29. Naming algorithms or model families does not prove that open-source
+software is used. Set uses_open_source_software only when a library, tool,
+license, repository, or open-source implementation is stated.
+
+30. The phrase "internal datasets" does not prove that no third-party data
+is used. It only establishes that at least some internal data is used.
+
+31. A numeric output does not prove that the output cannot contain or be
+linked to personal data. Consider identifiers, record-level linkage,
+addresses, and output granularity.
+
+32. Do not combine independent yes/no concepts in one clarification group.
+If the user could reasonably answer one part yes and another part no,
+create separate groups.
+
 Source document metadata:
 - document_id: {document_id}
 - file_name: {file_name}

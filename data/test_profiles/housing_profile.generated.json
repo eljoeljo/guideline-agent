@@ -103,6 +103,54 @@
         "clarification_question": "Does the project acquire, use, or handle confidential data?"
       }
     ],
-    "document_summary": "The project develops and evaluates classical supervised regression models for housing-price prediction."
+    "document_summary": "The project develops and evaluates classical supervised regression models for housing-price prediction.",
+    
+    "clarification_groups": [
+  {
+    "group_id": "project_ownership",
+    "question": "Who are the responsible project contacts and reviewers?",
+    "resolves_fields": [
+      "division_or_section",
+      "project_manager",
+      "contact_person",
+      "reviewer"
+    ]
+  },
+  {
+    "group_id": "advanced_ai_components",
+    "question": "Does the project use generative AI, LLMs, AI agents, retrieval, pretrained models, or foundation models?",
+    "resolves_fields": [
+      "uses_generative_ai",
+      "uses_llm",
+      "uses_agents",
+      "uses_information_retrieval",
+      "fine_tunes_model",
+      "uses_third_party_model",
+      "uses_external_pretrained_model",
+      "uses_foundation_model",
+      "uses_open_source_foundation_model"
+    ]
+  },
+  {
+    "group_id": "data_handling",
+    "question": "Does the project use or produce personal, sensitive, confidential, or third-party data?",
+    "resolves_fields": [
+      "uses_personal_data",
+      "uses_sensitive_data",
+      "uses_confidential_data",
+      "uses_third_party_data",
+      "output_may_contain_personal_data"
+    ]
+  },
+  {
+    "group_id": "operations_and_procurement",
+    "question": "Is the project planned for deployment, and does it involve procurement or decision support?",
+    "resolves_fields": [
+      "planned_for_deployment",
+      "uses_procurement",
+      "makes_or_supports_decisions"
+    ]
+  }
+]
   }
 }
