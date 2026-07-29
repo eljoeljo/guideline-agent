@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "clarification_response.schema.json",
+  "title": "Clarification Response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "group_id",
+    "answer_summary",
+    "field_updates",
+    "unresolved_fields"
+  ],
+  "properties": {
+    "group_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "answer_summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "field_updates": {
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "boolean",
+          "string",
+          "array"
+        ]
+      }
+    },
+    "unresolved_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  }
+}

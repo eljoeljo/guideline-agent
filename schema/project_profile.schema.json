@@ -281,7 +281,7 @@
         "document_summary": {
           "type": "string"
         },
-        
+
         "clarification_groups": {
   "type": "array",
   "items": {
@@ -307,6 +307,52 @@
           "type": "string"
         },
         "minItems": 1,
+        "uniqueItems": true
+      }
+    }
+  }
+},
+"clarification_history": {
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "group_id",
+      "question",
+      "user_answer",
+      "answer_summary",
+      "field_updates",
+      "unresolved_fields"
+    ],
+    "properties": {
+      "group_id": {
+        "type": "string"
+      },
+      "question": {
+        "type": "string"
+      },
+      "user_answer": {
+        "type": "string"
+      },
+      "answer_summary": {
+        "type": "string"
+      },
+      "field_updates": {
+        "type": "object",
+        "additionalProperties": {
+          "type": [
+            "boolean",
+            "string",
+            "array"
+          ]
+        }
+      },
+      "unresolved_fields": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
         "uniqueItems": true
       }
     }

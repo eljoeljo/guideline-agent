@@ -1,0 +1,428 @@
+{
+  "project_profile": {
+    "project_name": "Housing Price Prediction Model",
+    "project_description": "This project develops supervised machine learning models to predict residential property prices using historical housing market data.",
+    "division_or_section": null,
+    "project_manager": "Eljo",
+    "contact_person": "Joe",
+    "reviewer": "Moe",
+    "lifecycle_status": "development",
+    "project_type": "classical_ml",
+    "uses_ai_or_ml": true,
+    "uses_classical_ml": true,
+    "uses_generative_ai": null,
+    "uses_llm": null,
+    "uses_agents": null,
+    "uses_information_retrieval": null,
+    "trains_model": true,
+    "fine_tunes_model": null,
+    "uses_third_party_model": null,
+    "uses_open_source_software": null,
+    "uses_external_pretrained_model": false,
+    "uses_foundation_model": false,
+    "uses_open_source_foundation_model": false,
+    "trains_model_from_scratch": true,
+    "uses_personal_data": null,
+    "uses_sensitive_data": null,
+    "uses_confidential_data": null,
+    "uses_third_party_data": null,
+    "uses_procurement": null,
+    "externally_facing": false,
+    "interacts_with_end_users": false,
+    "makes_or_supports_decisions": null,
+    "requires_human_oversight": true,
+    "planned_for_deployment": null,
+    "output_type": "numeric price predictions",
+    "generates_free_text": false,
+    "output_may_contain_personal_data": null,
+    "models_tested": [
+      "Linear Regression",
+      "Random Forest",
+      "XGBoost"
+    ]
+  },
+  "extraction_metadata": {
+    "source_documents": [
+      {
+        "document_id": "housing_project",
+        "file_name": "housing_project.txt"
+      }
+    ],
+    "field_evidence": {
+      "project_name": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "Housing Price Prediction Model"
+        }
+      ],
+      "project_description": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "This project develops supervised machine learning models to predict residential property prices using historical housing market data."
+        }
+      ],
+      "lifecycle_status": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "The project is currently in development."
+        }
+      ],
+      "project_type": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "This project develops supervised machine learning models"
+        }
+      ],
+      "uses_ai_or_ml": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "This project develops supervised machine learning models"
+        }
+      ],
+      "uses_classical_ml": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "This project develops supervised machine learning models"
+        }
+      ],
+      "trains_model": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "Models are trained from scratch using internal datasets."
+        }
+      ],
+      "uses_external_pretrained_model": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "Models are trained from scratch using internal datasets."
+        }
+      ],
+      "uses_foundation_model": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "Models are trained from scratch using internal datasets."
+        }
+      ],
+      "uses_open_source_foundation_model": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "Models are trained from scratch using internal datasets."
+        }
+      ],
+      "trains_model_from_scratch": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "Models are trained from scratch using internal datasets."
+        }
+      ],
+      "externally_facing": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "The project is intended for internal Statistics Canada analysts."
+        }
+      ],
+      "interacts_with_end_users": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "The project is intended for internal Statistics Canada analysts."
+        }
+      ],
+      "requires_human_oversight": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "Human oversight is required before predictions are used."
+        }
+      ],
+      "output_type": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "The system produces numeric price predictions."
+        }
+      ],
+      "generates_free_text": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "The system produces numeric price predictions."
+        }
+      ],
+      "models_tested": [
+        {
+          "document_id": "housing_project",
+          "excerpt": "The project evaluates Linear Regression, Random Forest, and XGBoost."
+        }
+      ],
+      "project_manager": [
+        {
+          "document_id": "clarification:project_organizational_details",
+          "excerpt": "project is an ML bird classification project and the manager is Eljo"
+        }
+      ],
+      "reviewer": [
+        {
+          "document_id": "clarification:project_organizational_details",
+          "excerpt": "the reviewer is Moe"
+        }
+      ],
+      "contact_person": [
+        {
+          "document_id": "clarification:project_organizational_details",
+          "excerpt": "contact person is Joe"
+        }
+      ]
+    },
+    "field_confidence": {
+      "project_name": 0.9,
+      "project_description": 0.9,
+      "division_or_section": 0.0,
+      "project_manager": 1.0,
+      "contact_person": 1.0,
+      "reviewer": 1.0,
+      "lifecycle_status": 0.9,
+      "project_type": 0.7,
+      "uses_ai_or_ml": 0.9,
+      "uses_classical_ml": 0.9,
+      "uses_generative_ai": 0,
+      "uses_llm": 0,
+      "uses_agents": 0,
+      "uses_information_retrieval": 0,
+      "trains_model": 0.9,
+      "fine_tunes_model": 0,
+      "uses_third_party_model": 0,
+      "uses_open_source_software": 0,
+      "uses_external_pretrained_model": 0.7,
+      "uses_foundation_model": 0.7,
+      "uses_open_source_foundation_model": 0.7,
+      "trains_model_from_scratch": 0.9,
+      "uses_personal_data": 0,
+      "uses_sensitive_data": 0,
+      "uses_confidential_data": 0,
+      "uses_third_party_data": 0,
+      "uses_procurement": 0,
+      "externally_facing": 0.7,
+      "interacts_with_end_users": 0.7,
+      "makes_or_supports_decisions": 0,
+      "requires_human_oversight": 0.9,
+      "planned_for_deployment": 0,
+      "output_type": 0.9,
+      "generates_free_text": 0.7,
+      "output_may_contain_personal_data": 0,
+      "models_tested": 0.9
+    },
+    "field_status": {
+      "project_name": "explicit",
+      "project_description": "explicit",
+      "division_or_section": "unresolved",
+      "project_manager": "explicit",
+      "contact_person": "explicit",
+      "reviewer": "explicit",
+      "lifecycle_status": "explicit",
+      "project_type": "inferred",
+      "uses_ai_or_ml": "explicit",
+      "uses_classical_ml": "explicit",
+      "uses_generative_ai": "unresolved",
+      "uses_llm": "unresolved",
+      "uses_agents": "unresolved",
+      "uses_information_retrieval": "unresolved",
+      "trains_model": "explicit",
+      "fine_tunes_model": "unresolved",
+      "uses_third_party_model": "unresolved",
+      "uses_open_source_software": "unresolved",
+      "uses_external_pretrained_model": "inferred",
+      "uses_foundation_model": "inferred",
+      "uses_open_source_foundation_model": "inferred",
+      "trains_model_from_scratch": "explicit",
+      "uses_personal_data": "unresolved",
+      "uses_sensitive_data": "unresolved",
+      "uses_confidential_data": "unresolved",
+      "uses_third_party_data": "unresolved",
+      "uses_procurement": "unresolved",
+      "externally_facing": "inferred",
+      "interacts_with_end_users": "inferred",
+      "makes_or_supports_decisions": "unresolved",
+      "requires_human_oversight": "explicit",
+      "planned_for_deployment": "unresolved",
+      "output_type": "explicit",
+      "generates_free_text": "inferred",
+      "output_may_contain_personal_data": "unresolved",
+      "models_tested": "explicit"
+    },
+    "unresolved_fields": [
+      {
+        "field": "division_or_section",
+        "reason": "Information not found in the document.",
+        "clarification_question": "What division or section is responsible for this project?"
+      },
+      {
+        "field": "uses_generative_ai",
+        "reason": "Information not found in the document.",
+        "clarification_question": "Does the project use generative AI?"
+      },
+      {
+        "field": "uses_llm",
+        "reason": "Information not found in the document.",
+        "clarification_question": "Does the project use Large Language Models (LLMs)?"
+      },
+      {
+        "field": "uses_agents",
+        "reason": "Information not found in the document.",
+        "clarification_question": "Does the project use AI agents?"
+      },
+      {
+        "field": "uses_information_retrieval",
+        "reason": "Information not found in the document.",
+        "clarification_question": "Does the project use information retrieval techniques?"
+      },
+      {
+        "field": "fine_tunes_model",
+        "reason": "Information not found in the document.",
+        "clarification_question": "Does the project fine-tune any models?"
+      },
+      {
+        "field": "uses_third_party_model",
+        "reason": "The document states models are trained from scratch using internal datasets, but does not explicitly exclude the use of third-party models.",
+        "clarification_question": "Does the project use any third-party models?"
+      },
+      {
+        "field": "uses_open_source_software",
+        "reason": "The document mentions common ML algorithms but does not explicitly state the use of open-source software libraries or tools.",
+        "clarification_question": "Does the project use any open-source software?"
+      },
+      {
+        "field": "uses_personal_data",
+        "reason": "The document mentions 'historical housing market data' but does not specify if it includes personal data.",
+        "clarification_question": "Does the project use personal data?"
+      },
+      {
+        "field": "uses_sensitive_data",
+        "reason": "Information not found in the document.",
+        "clarification_question": "Does the project use sensitive data?"
+      },
+      {
+        "field": "uses_confidential_data",
+        "reason": "Information not found in the document.",
+        "clarification_question": "Does the project use confidential data?"
+      },
+      {
+        "field": "uses_third_party_data",
+        "reason": "The document mentions 'internal datasets' but does not explicitly exclude the use of third-party data.",
+        "clarification_question": "Does the project use any third-party data?"
+      },
+      {
+        "field": "uses_procurement",
+        "reason": "Information not found in the document.",
+        "clarification_question": "Does this project involve any procurement processes?"
+      },
+      {
+        "field": "makes_or_supports_decisions",
+        "reason": "The document states 'predictions are used' and 'human oversight is required before predictions are used,' but does not describe a specific decision, action, recommendation, or operational outcome that uses the model output.",
+        "clarification_question": "Will the model's predictions be used to make or support specific decisions, actions, recommendations, or operational outcomes?"
+      },
+      {
+        "field": "planned_for_deployment",
+        "reason": "The project is in development and intended for internal analysts, but the document does not explicitly mention deployment, production, or operationalization.",
+        "clarification_question": "Is the project planned for deployment into an operational environment?"
+      },
+      {
+        "field": "output_may_contain_personal_data",
+        "reason": "The project produces numeric price predictions, but it's unclear if these predictions could be linked to or contain personal data (e.g., if they are at a granular level tied to specific individuals or properties with identifiable information).",
+        "clarification_question": "Could the numeric price predictions, even if aggregated, be linked to or contain personal data?"
+      }
+    ],
+    "document_summary": "The project, \"Housing Price Prediction Model,\" is currently in development. It uses supervised machine learning models, specifically Linear Regression, Random Forest, and XGBoost, to predict residential property prices. The models are trained from scratch using internal datasets and produce numeric price predictions. The system is intended for internal Statistics Canada analysts, and human oversight is required before predictions are used.",
+    "clarification_groups": [
+      {
+        "group_id": "project_organizational_details",
+        "question": "Could you provide details about the project's organizational context, including the division, project manager, contact person, and reviewer?",
+        "resolves_fields": [
+          "division_or_section"
+        ]
+      },
+      {
+        "group_id": "ai_ml_technology_details",
+        "question": "Does the project use generative AI, LLMs, AI agents, information retrieval, fine-tuned models, third-party models, or open-source software components?",
+        "resolves_fields": [
+          "uses_generative_ai",
+          "uses_llm",
+          "uses_agents",
+          "uses_information_retrieval",
+          "fine_tunes_model",
+          "uses_third_party_model",
+          "uses_open_source_software"
+        ]
+      },
+      {
+        "group_id": "data_usage_details",
+        "question": "Does the project use personal, sensitive, confidential, or third-party data?",
+        "resolves_fields": [
+          "uses_personal_data",
+          "uses_sensitive_data",
+          "uses_confidential_data",
+          "uses_third_party_data"
+        ]
+      },
+      {
+        "group_id": "procurement_involvement",
+        "question": "Does this project involve any procurement processes?",
+        "resolves_fields": [
+          "uses_procurement"
+        ]
+      },
+      {
+        "group_id": "decision_support_and_deployment",
+        "question": "Will the model's predictions be used to make or support decisions, and is the project planned for deployment into an operational environment?",
+        "resolves_fields": [
+          "makes_or_supports_decisions",
+          "planned_for_deployment"
+        ]
+      },
+      {
+        "group_id": "output_data_sensitivity",
+        "question": "Could the numeric price predictions, even if aggregated, be linked to or contain personal data?",
+        "resolves_fields": [
+          "output_may_contain_personal_data"
+        ]
+      }
+    ],
+    "clarification_history": [
+      {
+        "group_id": "project_organizational_details",
+        "question": "Could you provide details about the project's organizational context, including the division, project manager, contact person, and reviewer?",
+        "user_answer": "project is an ML bird classification project and the manager is Eljo",
+        "answer_summary": "The project manager is Eljo.",
+        "field_updates": {
+          "project_manager": "Eljo"
+        },
+        "unresolved_fields": [
+          "contact_person",
+          "division_or_section",
+          "reviewer"
+        ]
+      },
+      {
+        "group_id": "project_organizational_details",
+        "question": "Could you provide details about the project's organizational context, including the division, project manager, contact person, and reviewer?",
+        "user_answer": "the reviewer is Moe",
+        "answer_summary": "The user stated that the reviewer is Moe.",
+        "field_updates": {
+          "reviewer": "Moe"
+        },
+        "unresolved_fields": [
+          "contact_person",
+          "division_or_section"
+        ]
+      },
+      {
+        "group_id": "project_organizational_details",
+        "question": "Could you provide details about the project's organizational context, including the division, project manager, contact person, and reviewer?",
+        "user_answer": "contact person is Joe",
+        "answer_summary": "The contact person is Joe.",
+        "field_updates": {
+          "contact_person": "Joe"
+        },
+        "unresolved_fields": [
+          "division_or_section"
+        ]
+      }
+    ]
+  }
+}

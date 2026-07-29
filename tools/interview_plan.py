@@ -122,9 +122,6 @@ def _question_lookup() -> dict[str, dict[str, Any]]:
     }
 
 
-
-
-
 def _clarification_groups(
     plan: dict[str, Any],
 ) -> list[dict[str, Any]]:

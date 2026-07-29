@@ -217,24 +217,6 @@ def _get_nested_value(data: dict[str, Any], reference: str) -> Any:
     return current
 
 
-def _profile_evidence(
-    project_profile: dict[str, Any],
-    *references: str,
-) -> list[EvidenceItem]:
-    evidence: list[EvidenceItem] = []
-
-    for reference in references:
-        value = _get_nested_value(project_profile, reference)
-        evidence.append(
-            EvidenceItem(
-                source_type="project_profile",
-                reference=reference,
-                excerpt=json.dumps(value, ensure_ascii=False),
-            )
-        )
-
-    return evidence
-
 
 def _hydrate_evidence(
     decision: ApplicabilityDecision,
@@ -254,9 +236,6 @@ def _hydrate_evidence(
         item.excerpt = json.dumps(value, ensure_ascii=False)
 
     return decision
-
-
-
 
 
 def _validate_batch(
