@@ -23,22 +23,72 @@ def load_json(path: Path) -> dict[str, Any]:
         return json.load(file)
 
 
-def load_text_document(path: Path) -> str:
-    """ Load text document from file, assuming existence"""
-    
-    if path.suffix.lower() != ".txt":
-        
-        raise ValueError(
-            f"Unsupported file type: {path.suffix}. "
-            "Only .txt files are supported for now."
+def load_source_document(
+    path: Path,
+) -> tuple[str, str, str]:
+    suffix = path.suffix.lower()
+
+    if suffix == ".txt":
+        text = path.read_text(
+            encoding="utf-8",
+        ).strip()
+
+        if not text:
+            raise ValueError(
+                f"Source document is empty: {path}"
+            )
+
+        return text, path.stem, path.name
+
+    if suffix == ".json":
+        ingested = load_json(path)
+
+        required_fields = {
+            "document_id",
+            "file_name",
+            "plain_text",
+        }
+
+        missing_fields = (
+            required_fields - set(ingested)
         )
 
-    text = path.read_text(encoding="utf-8").strip()
+        if missing_fields:
+            raise ValueError(
+                "Ingested document is missing required fields: "
+                f"{sorted(missing_fields)}"
+            )
 
-    if not text:
-        raise ValueError(f"Source document is empty: {path}")
+        text = ingested["plain_text"]
 
-    return text
+        if not isinstance(text, str) or not text.strip():
+            raise ValueError(
+                "Ingested document plain_text is empty."
+            )
+
+        document_id = ingested["document_id"]
+        file_name = ingested["file_name"]
+
+        if not isinstance(document_id, str):
+            raise TypeError(
+                "document_id must be a string."
+            )
+
+        if not isinstance(file_name, str):
+            raise TypeError(
+                "file_name must be a string."
+            )
+
+        return (
+            text.strip(),
+            document_id,
+            file_name,
+        )
+
+    raise ValueError(
+        f"Unsupported source type: {suffix}. "
+        "Expected .txt or normalized ingestion .json."
+    )
 
 
 def prepare_generation_schema(
@@ -216,14 +266,19 @@ def generate_project_profile(
     against the provided JSON schema."""
     
     schema = load_json(schema_path)
-    document_text = load_text_document(source_path)
-
-    document_id = source_path.stem
+    
+    (
+    document_text,
+    document_id,
+    source_file_name,
+    ) = load_source_document(source_path)
+    
+    
     
     prompt = build_prompt(
         document_text=document_text,
         document_id=document_id,
-        file_name=source_path.name,
+        file_name=source_file_name
     )
 
     client = genai.Client()
@@ -273,7 +328,7 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "source",
         type=Path,
-        help="Path to the source .txt document.",
+        help="Path to the source .txt document or normalized ingested JSON file ",
     )
     parser.add_argument(
         "output",
