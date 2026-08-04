@@ -1,0 +1,389 @@
+{
+  "document_id": "housing_project_pitch_pptx",
+  "file_name": "housing_project_pitch_pptx.pptx",
+  "file_type": "pptx",
+  "title": "Housing Price Prediction Model",
+  "metadata": {
+    "author": "Responsible AI Project Team",
+    "created": "2013-01-27T09:14:16",
+    "modified": "2026-08-03T23:46:02"
+  },
+  "blocks": [
+    {
+      "block_id": "block_0",
+      "block_type": "paragraph",
+      "text": "Housing Price Prediction Model",
+      "location": {
+        "block_index": 0,
+        "page": null,
+        "slide": 1,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_1",
+      "block_type": "paragraph",
+      "text": "Project Brief for Responsible AI Review",
+      "location": {
+        "block_index": 1,
+        "page": null,
+        "slide": 1,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_2",
+      "block_type": "paragraph",
+      "text": "Version 0.2 | Development stage",
+      "location": {
+        "block_index": 2,
+        "page": null,
+        "slide": 1,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_3",
+      "block_type": "table",
+      "text": "Division or section | Economic Analysis Division\nProject manager | Eljo Example\nPrimary contact | Jordan Lee\nReviewer | Moe Example\nIntended users | Internal Statistics Canada analysts",
+      "location": {
+        "block_index": 3,
+        "page": null,
+        "slide": 1,
+        "table_index": 0
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": 5,
+        "columns": 2
+      }
+    },
+    {
+      "block_id": "block_4",
+      "block_type": "paragraph",
+      "text": "Project Overview",
+      "location": {
+        "block_index": 4,
+        "page": null,
+        "slide": 2,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_5",
+      "block_type": "paragraph",
+      "text": "This project develops supervised machine learning models to predict residential property prices using historical housing market data. The project is currently in development and is intended for internal analytical use. The system produces numeric price predictions rather than free-text output.",
+      "location": {
+        "block_index": 5,
+        "page": null,
+        "slide": 2,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_6",
+      "block_type": "paragraph",
+      "text": "Project type: classical supervised machine learning Lifecycle status: development Output: numeric price prediction Primary users: internal analysts",
+      "location": {
+        "block_index": 6,
+        "page": null,
+        "slide": 2,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_7",
+      "block_type": "paragraph",
+      "text": "Technical Approach",
+      "location": {
+        "block_index": 7,
+        "page": null,
+        "slide": 3,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_8",
+      "block_type": "paragraph",
+      "text": "The team evaluates several model families and trains models from scratch using internal datasets.",
+      "location": {
+        "block_index": 8,
+        "page": null,
+        "slide": 3,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_9",
+      "block_type": "paragraph",
+      "text": "Linear Regression Random Forest XGBoost",
+      "location": {
+        "block_index": 9,
+        "page": null,
+        "slide": 3,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_10",
+      "block_type": "paragraph",
+      "text": "The current implementation uses open-source Python libraries. The project does not use generative AI, large language models, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models.",
+      "location": {
+        "block_index": 10,
+        "page": null,
+        "slide": 3,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_11",
+      "block_type": "paragraph",
+      "text": "Data and Privacy",
+      "location": {
+        "block_index": 11,
+        "page": null,
+        "slide": 4,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_12",
+      "block_type": "paragraph",
+      "text": "The project uses historical housing records. Some records may contain personal information linked to specific properties or owners. The project does not use sensitive attributes or confidential data, and no third-party data sources are currently included.",
+      "location": {
+        "block_index": 12,
+        "page": null,
+        "slide": 4,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_13",
+      "block_type": "paragraph",
+      "text": "Model outputs are numeric, but the team is reviewing whether record-level predictions could be linked back to identifiable information.",
+      "location": {
+        "block_index": 13,
+        "page": null,
+        "slide": 4,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_14",
+      "block_type": "table",
+      "text": "Area | Current status | Open question\nData | Internal housing records identified | Can records be linked to identifiable individuals?\nOutput | Numeric record-level predictions | Is output linkage possible?\nPrivacy | Personal information may exist | Which privacy controls apply?",
+      "location": {
+        "block_index": 14,
+        "page": null,
+        "slide": 4,
+        "table_index": 1
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": 4,
+        "columns": 3
+      }
+    },
+    {
+      "block_id": "block_15",
+      "block_type": "paragraph",
+      "text": "Deployment and Oversight",
+      "location": {
+        "block_index": 15,
+        "page": null,
+        "slide": 5,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_16",
+      "block_type": "paragraph",
+      "text": "The project is planned for internal operational deployment after testing and review. Human oversight is required before predictions are used.",
+      "location": {
+        "block_index": 16,
+        "page": null,
+        "slide": 5,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_17",
+      "block_type": "paragraph",
+      "text": "The model may support analytical decisions. The model does not make fully automated decisions. The project does not interact directly with members of the public or external clients. Monitoring and retraining procedures need to be defined before launch.",
+      "location": {
+        "block_index": 17,
+        "page": null,
+        "slide": 5,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_18",
+      "block_type": "paragraph",
+      "text": "Governance Considerations",
+      "location": {
+        "block_index": 18,
+        "page": null,
+        "slide": 6,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_19",
+      "block_type": "paragraph",
+      "text": "Current governance considerations include:",
+      "location": {
+        "block_index": 19,
+        "page": null,
+        "slide": 6,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_20",
+      "block_type": "paragraph",
+      "text": "Documenting model limitations and intended use. Assessing whether housing variables may act as proxies for protected characteristics. Reviewing output linkage and re-identification risks. Defining monitoring and retraining procedures before deployment.",
+      "location": {
+        "block_index": 20,
+        "page": null,
+        "slide": 6,
+        "table_index": null
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": null,
+        "columns": null
+      }
+    },
+    {
+      "block_id": "block_21",
+      "block_type": "table",
+      "text": "Area | Current status | Open question\nDeployment | Internal deployment is planned | Which monitoring controls are required?\nDecision support | Predictions may inform analysis | Which operational decisions, if any, rely on output?\nProcurement | Not specified | Are vendors or external services involved?",
+      "location": {
+        "block_index": 21,
+        "page": null,
+        "slide": 6,
+        "table_index": 2
+      },
+      "metadata": {
+        "style": null,
+        "heading_level": null,
+        "rows": 4,
+        "columns": 3
+      }
+    }
+  ],
+  "plain_text": "[Slide 1]\n\nHousing Price Prediction Model\n\nProject Brief for Responsible AI Review\n\nVersion 0.2 | Development stage\n\n[Table 1]\nDivision or section | Economic Analysis Division\nProject manager | Eljo Example\nPrimary contact | Jordan Lee\nReviewer | Moe Example\nIntended users | Internal Statistics Canada analysts\n\n[Slide 2]\n\nProject Overview\n\nThis project develops supervised machine learning models to predict residential property prices using historical housing market data. The project is currently in development and is intended for internal analytical use. The system produces numeric price predictions rather than free-text output.\n\nProject type: classical supervised machine learning Lifecycle status: development Output: numeric price prediction Primary users: internal analysts\n\n[Slide 3]\n\nTechnical Approach\n\nThe team evaluates several model families and trains models from scratch using internal datasets.\n\nLinear Regression Random Forest XGBoost\n\nThe current implementation uses open-source Python libraries. The project does not use generative AI, large language models, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models.\n\n[Slide 4]\n\nData and Privacy\n\nThe project uses historical housing records. Some records may contain personal information linked to specific properties or owners. The project does not use sensitive attributes or confidential data, and no third-party data sources are currently included.\n\nModel outputs are numeric, but the team is reviewing whether record-level predictions could be linked back to identifiable information.\n\n[Table 2]\nArea | Current status | Open question\nData | Internal housing records identified | Can records be linked to identifiable individuals?\nOutput | Numeric record-level predictions | Is output linkage possible?\nPrivacy | Personal information may exist | Which privacy controls apply?\n\n[Slide 5]\n\nDeployment and Oversight\n\nThe project is planned for internal operational deployment after testing and review. Human oversight is required before predictions are used.\n\nThe model may support analytical decisions. The model does not make fully automated decisions. The project does not interact directly with members of the public or external clients. Monitoring and retraining procedures need to be defined before launch.\n\n[Slide 6]\n\nGovernance Considerations\n\nCurrent governance considerations include:\n\nDocumenting model limitations and intended use. Assessing whether housing variables may act as proxies for protected characteristics. Reviewing output linkage and re-identification risks. Defining monitoring and retraining procedures before deployment.\n\n[Table 3]\nArea | Current status | Open question\nDeployment | Internal deployment is planned | Which monitoring controls are required?\nDecision support | Predictions may inform analysis | Which operational decisions, if any, rely on output?\nProcurement | Not specified | Are vendors or external services involved?",
+  "warnings": []
+}

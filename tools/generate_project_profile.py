@@ -212,6 +212,10 @@ addresses, and output granularity.
 If the user could reasonably answer one part yes and another part no,
 create separate groups.
 
+33. When a document states that a risk is being reviewed, assessed, or is
+uncertain, do not convert that possibility into true. Keep the field null
+unless the document confirms the condition.
+
 Source document metadata:
 - document_id: {document_id}
 - file_name: {file_name}
