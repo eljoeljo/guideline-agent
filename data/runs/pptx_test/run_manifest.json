@@ -1,0 +1,28 @@
+{
+  "project_id": "housing_project_pitch_pptx",
+  "status": "ready_for_interview",
+  "source_document": "data/runs/pptx_test/source_document.pptx",
+  "ingested_document": "data/runs/pptx_test/ingested_document.json",
+  "draft_project_profile": "data/runs/pptx_test/draft_project_profile.json",
+  "completed_project_profile": "data/runs/pptx_test/completed_project_profile.json",
+  "active_profile": "data/runs/pptx_test/draft_project_profile.json",
+  "source_file_type": "pptx",
+  "extracted_blocks": 22,
+  "ingestion_warnings": [],
+  "profile_status_counts": {
+    "explicit": 30,
+    "inferred": 4,
+    "unresolved": 2
+  },
+  "remaining_clarification_groups": 2,
+  "remaining_unresolved_fields": 2,
+  "applicability_plan": "data/runs/pptx_test/applicability_plan.json",
+  "user_responses": "data/runs/pptx_test/user_responses.json",
+  "decision_trace": "data/runs/pptx_test/decision_trace.jsonl",
+  "operational_project_profile": "data/runs/pptx_test/project_profile.json",
+  "decision_counts": {
+    "ask": 65,
+    "skip": 22,
+    "needs_clarification": 1
+  }
+}

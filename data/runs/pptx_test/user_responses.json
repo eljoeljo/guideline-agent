@@ -1,0 +1,19 @@
+{
+  "clarification_data_acquisition_and_consent_mechanism": {
+    "answer": "it is obtained by the developers and the consent mechanisms in place are strict security controls put in place by the developer",
+    "normalized_value": "it is obtained by the developers and the consent mechanisms in place are strict security controls put in place by the developer",
+    "answer_source": "user",
+    "item_type": "clarification",
+    "target_profile_field": "data_acquisition_and_consent_mechanism",
+    "affected_question_ids": [
+      "37"
+    ]
+  },
+  "q_01": {
+    "answer": "yes",
+    "answer_source": "user",
+    "question_id": "01",
+    "item_type": "checklist_question",
+    "answer_quality": "complete"
+  }
+}

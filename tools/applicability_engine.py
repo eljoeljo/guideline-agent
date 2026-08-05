@@ -22,14 +22,22 @@ from schema.applicability import (
     EvidenceItem,
 )
 from tools.decision_trace import append_trace
+from tools.run_context import get_run_paths
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
 
 # Standard project profile and plan storage locations.
-PROJECT_PROFILE_PATH = DATA_DIR / "project_profile.json"
-PLAN_PATH = DATA_DIR / "applicability_plan.json"
+def get_default_project_profile_path() -> Path:
+    
+    return get_run_paths().profile
+
+
+def get_default_plan_path() -> Path:
+    
+    return get_run_paths().plan
+
 QUESTION_PATH = DATA_DIR / "mock_questions.json"
 
 
@@ -136,11 +144,13 @@ def load_question_database(
 
 
 def load_project_profile(
-    path: Path = PROJECT_PROFILE_PATH,
+    path: Path | None = None,
 ) -> dict[str, Any]:
     """Load the current project profile."""
 
-    with path.open("r", encoding="utf-8") as file:
+    target = path or get_default_project_profile_path()
+    
+    with target.open("r", encoding="utf-8") as file:
         profile = json.load(file)
 
     if not isinstance(profile, dict):
@@ -151,15 +161,17 @@ def load_project_profile(
 
 def save_project_profile(
     profile: dict[str, Any],
-    path: Path = PROJECT_PROFILE_PATH,
+    path: Path | None = None,
 ) -> dict[str, Any]:
     """Persist the project profile to disk."""
 
     if not isinstance(profile, dict):
         raise TypeError("profile must be a dictionary")
-
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
+    
+    target = path or get_default_project_profile_path()
+    target.parent.mkdir(parents=True, exist_ok=True)
+    
+    target.write_text(
         json.dumps(profile, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
@@ -360,10 +372,14 @@ def _generate_decisions(
 
 def _save_plan(
     plan: ApplicabilityPlan,
-    output_path: Path = PLAN_PATH,
+    output_path: Path | None = None,
 ) -> dict[str, Any]:
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(
+    
+    target = output_path or get_default_plan_path()
+    
+    target.parent.mkdir(parents=True, exist_ok=True)
+    
+    target.write_text(
         plan.model_dump_json(indent=2),
         encoding="utf-8",
     )
@@ -374,7 +390,7 @@ def _save_plan(
 def create_applicability_plan(
     project_profile: dict[str, Any] | None = None,
     questions: list[dict[str, Any]] | None = None,
-    output_path: Path = PLAN_PATH,
+    output_path: Path | None = None,
 ) -> dict[str, Any]:
     """Generate and persist a complete plan for all checklist questions."""
 
@@ -412,9 +428,11 @@ def replan_questions(
     project_profile: dict[str, Any],
     question_ids: Iterable[str],
     current_plan: dict[str, Any] | None = None,
-    output_path: Path = PLAN_PATH,
+    output_path: Path | None = None,
 ) -> dict[str, Any]:
     """Re-evaluate only the questions affected by new project information."""
+    
+    target = output_path or get_default_plan_path()
 
     requested_ids = {str(question_id) for question_id in question_ids}
     all_questions = load_question_database()
@@ -438,11 +456,11 @@ def replan_questions(
     )
 
     if current_plan is None:
-        if not output_path.exists():
+        if not target.exists():
             raise FileNotFoundError(
                 "No existing applicability plan is available to update."
             )
-        current_plan = json.loads(output_path.read_text(encoding="utf-8"))
+        current_plan = json.loads(target.read_text(encoding="utf-8"))
 
     replacement_map = {
         decision.question_id: decision
@@ -469,7 +487,7 @@ def replan_questions(
         ),
     )
 
-    result = _save_plan(plan, output_path)
+    result = _save_plan(plan, target)
 
     append_trace(
         event_type="questions_replanned",
@@ -517,4 +535,5 @@ def normalize_answer(answer: str, answer_type: str = "text") -> str:
 
     return answer.strip()
 
-
+PLAN_PATH = get_default_plan_path()
+PROJECT_PROFILE_PATH = get_default_project_profile_path()

@@ -1,0 +1,381 @@
+{
+  "project_profile": {
+    "project_name": "Housing Price Prediction Model",
+    "project_description": "This project develops supervised machine learning models to predict residential property prices using historical housing market data. The project is currently in development and is intended for internal analytical use. The system produces numeric price predictions rather than free-text output.",
+    "division_or_section": "Economic Analysis Division",
+    "project_manager": "Eljo Example",
+    "contact_person": "Jordan Lee",
+    "reviewer": "Moe Example",
+    "lifecycle_status": "development",
+    "project_type": "classical_ml",
+    "uses_ai_or_ml": true,
+    "uses_classical_ml": true,
+    "uses_generative_ai": false,
+    "uses_llm": false,
+    "uses_agents": false,
+    "uses_information_retrieval": false,
+    "trains_model": true,
+    "fine_tunes_model": false,
+    "uses_third_party_model": false,
+    "uses_open_source_software": true,
+    "uses_external_pretrained_model": false,
+    "uses_foundation_model": false,
+    "uses_open_source_foundation_model": false,
+    "trains_model_from_scratch": true,
+    "uses_personal_data": true,
+    "uses_sensitive_data": false,
+    "uses_confidential_data": false,
+    "uses_third_party_data": false,
+    "uses_procurement": null,
+    "externally_facing": false,
+    "interacts_with_end_users": false,
+    "makes_or_supports_decisions": null,
+    "requires_human_oversight": true,
+    "planned_for_deployment": true,
+    "output_type": "numeric",
+    "generates_free_text": false,
+    "output_may_contain_personal_data": null,
+    "models_tested": [
+      "Linear Regression",
+      "Random Forest",
+      "XGBoost"
+    ]
+  },
+  "extraction_metadata": {
+    "source_documents": [
+      {
+        "document_id": "housing_project_brief",
+        "file_name": "housing_project_brief.docx"
+      }
+    ],
+    "field_evidence": {
+      "project_name": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Housing Price Prediction Model"
+        }
+      ],
+      "project_description": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "This project develops supervised machine learning models to predict residential property prices using historical housing market data. The project is currently in development and is intended for internal analytical use. The system produces numeric price predictions rather than free-text output."
+        }
+      ],
+      "division_or_section": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Division or section | Economic Analysis Division"
+        }
+      ],
+      "project_manager": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Project manager | Eljo Example"
+        }
+      ],
+      "contact_person": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Primary contact | Jordan Lee"
+        }
+      ],
+      "reviewer": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Reviewer | Moe Example"
+        }
+      ],
+      "lifecycle_status": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Version 0.1 | Development stage"
+        }
+      ],
+      "project_type": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "This project develops supervised machine learning models"
+        }
+      ],
+      "uses_ai_or_ml": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "This project develops supervised machine learning models"
+        }
+      ],
+      "uses_classical_ml": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "This project develops supervised machine learning models"
+        }
+      ],
+      "uses_generative_ai": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use generative AI"
+        }
+      ],
+      "uses_llm": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use generative AI, large language models, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models."
+        }
+      ],
+      "uses_agents": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use generative AI, large language models, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models."
+        }
+      ],
+      "uses_information_retrieval": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use generative AI, large language models, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models."
+        }
+      ],
+      "trains_model": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Models are trained from scratch using internal datasets."
+        }
+      ],
+      "fine_tunes_model": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use generative AI, large language models, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models."
+        }
+      ],
+      "uses_third_party_model": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use generative AI, large language models, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models."
+        }
+      ],
+      "uses_open_source_software": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The current implementation uses open-source Python libraries."
+        }
+      ],
+      "uses_external_pretrained_model": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use generative AI, large language models, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models."
+        }
+      ],
+      "uses_foundation_model": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use generative AI, large language models, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models."
+        }
+      ],
+      "uses_open_source_foundation_model": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use generative AI, large language models, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models."
+        }
+      ],
+      "trains_model_from_scratch": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Models are trained from scratch using internal datasets."
+        }
+      ],
+      "uses_personal_data": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Some records may contain personal information linked to specific properties or owners."
+        }
+      ],
+      "uses_sensitive_data": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use sensitive attributes"
+        }
+      ],
+      "uses_confidential_data": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not use sensitive attributes or confidential data"
+        }
+      ],
+      "uses_third_party_data": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "no third-party data sources are currently included."
+        }
+      ],
+      "externally_facing": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not interact directly with members of the public or external clients."
+        }
+      ],
+      "interacts_with_end_users": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Intended users | Internal Statistics Canada analysts"
+        },
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project does not interact directly with members of the public or external clients."
+        }
+      ],
+      "requires_human_oversight": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Human oversight is required before predictions are used."
+        }
+      ],
+      "planned_for_deployment": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The project is planned for internal operational deployment after testing and review."
+        }
+      ],
+      "output_type": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "The system produces numeric price predictions"
+        }
+      ],
+      "generates_free_text": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "produces numeric price predictions rather than free-text output."
+        }
+      ],
+      "models_tested": [
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Linear Regression"
+        },
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "Random Forest"
+        },
+        {
+          "document_id": "housing_project_brief",
+          "excerpt": "XGBoost"
+        }
+      ]
+    },
+    "field_confidence": {
+      "project_name": 0.9,
+      "project_description": 0.9,
+      "division_or_section": 0.9,
+      "project_manager": 0.9,
+      "contact_person": 0.9,
+      "reviewer": 0.9,
+      "lifecycle_status": 0.9,
+      "project_type": 0.9,
+      "uses_ai_or_ml": 0.7,
+      "uses_classical_ml": 0.9,
+      "uses_generative_ai": 0.9,
+      "uses_llm": 0.9,
+      "uses_agents": 0.9,
+      "uses_information_retrieval": 0.9,
+      "trains_model": 0.9,
+      "fine_tunes_model": 0.9,
+      "uses_third_party_model": 0.9,
+      "uses_open_source_software": 0.9,
+      "uses_external_pretrained_model": 0.9,
+      "uses_foundation_model": 0.9,
+      "uses_open_source_foundation_model": 0.7,
+      "trains_model_from_scratch": 0.9,
+      "uses_personal_data": 0.9,
+      "uses_sensitive_data": 0.9,
+      "uses_confidential_data": 0.9,
+      "uses_third_party_data": 0.9,
+      "uses_procurement": 0,
+      "externally_facing": 0.9,
+      "interacts_with_end_users": 0.9,
+      "makes_or_supports_decisions": 0,
+      "requires_human_oversight": 0.9,
+      "planned_for_deployment": 0.9,
+      "output_type": 0.9,
+      "generates_free_text": 0.9,
+      "output_may_contain_personal_data": 0,
+      "models_tested": 0.9
+    },
+    "field_status": {
+      "project_name": "explicit",
+      "project_description": "explicit",
+      "division_or_section": "explicit",
+      "project_manager": "explicit",
+      "contact_person": "explicit",
+      "reviewer": "explicit",
+      "lifecycle_status": "explicit",
+      "project_type": "explicit",
+      "uses_ai_or_ml": "inferred",
+      "uses_classical_ml": "explicit",
+      "uses_generative_ai": "explicit",
+      "uses_llm": "explicit",
+      "uses_agents": "explicit",
+      "uses_information_retrieval": "explicit",
+      "trains_model": "explicit",
+      "fine_tunes_model": "explicit",
+      "uses_third_party_model": "explicit",
+      "uses_open_source_software": "explicit",
+      "uses_external_pretrained_model": "explicit",
+      "uses_foundation_model": "explicit",
+      "uses_open_source_foundation_model": "inferred",
+      "trains_model_from_scratch": "explicit",
+      "uses_personal_data": "explicit",
+      "uses_sensitive_data": "explicit",
+      "uses_confidential_data": "explicit",
+      "uses_third_party_data": "explicit",
+      "uses_procurement": "unresolved",
+      "externally_facing": "explicit",
+      "interacts_with_end_users": "explicit",
+      "makes_or_supports_decisions": "unresolved",
+      "requires_human_oversight": "explicit",
+      "planned_for_deployment": "explicit",
+      "output_type": "explicit",
+      "generates_free_text": "explicit",
+      "output_may_contain_personal_data": "unresolved",
+      "models_tested": "explicit"
+    },
+    "unresolved_fields": [
+      {
+        "field": "uses_procurement",
+        "reason": "The document does not mention whether the project involves any procurement of goods or services.",
+        "clarification_question": "Does this project involve any procurement of goods or services from external vendors?"
+      },
+      {
+        "field": "makes_or_supports_decisions",
+        "reason": "The document states the model 'may support analytical decisions' but does not describe specific decisions, actions, or operational outcomes that rely on the output.",
+        "clarification_question": "Which specific operational decisions, actions, or recommendations will rely on the model's output?"
+      },
+      {
+        "field": "output_may_contain_personal_data",
+        "reason": "The document states the team is 'reviewing whether record-level predictions could be linked back to identifiable information' but does not confirm it.",
+        "clarification_question": "Can the model's record-level predictions be linked back to identifiable personal information?"
+      }
+    ],
+    "document_summary": "The Housing Price Prediction Model project is in the development stage, utilizing supervised machine learning models like Linear Regression, Random Forest, and XGBoost. It is managed by Eljo Example, with Jordan Lee as the primary contact, and reviewed by Moe Example, within the Economic Analysis Division. The models are trained from scratch using internal historical housing market data, some of which contains personal information. The project explicitly states it does not use generative AI, LLMs, AI agents, information retrieval, fine-tuning, third-party models, external pretrained models, or foundation models. It uses open-source Python libraries. The system produces numeric price predictions and does not generate free-text. It is planned for internal operational deployment, requires human oversight, and is not externally facing or interacting with external end-users. The project is reviewing potential re-identification risks with model outputs and assessing whether housing variables may proxy for protected characteristics.",
+    "clarification_groups": [
+      {
+        "group_id": "project_procurement",
+        "question": "Does this project involve any procurement of goods or services from external vendors?",
+        "resolves_fields": [
+          "uses_procurement"
+        ]
+      },
+      {
+        "group_id": "decision_support_details",
+        "question": "Which specific operational decisions, actions, or recommendations will rely on the model's output?",
+        "resolves_fields": [
+          "makes_or_supports_decisions"
+        ]
+      },
+      {
+        "group_id": "output_personal_data_risk",
+        "question": "Can the model's record-level predictions be linked back to identifiable personal information?",
+        "resolves_fields": [
+          "output_may_contain_personal_data"
+        ]
+      }
+    ]
+  }
+}

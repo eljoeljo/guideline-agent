@@ -1,0 +1,1238 @@
+{
+  "project_name": "Housing Price Prediction Model",
+  "decisions": [
+    {
+      "question_id": "01",
+      "decision": "ask",
+      "reason": "The project uses classical ML for decision support and personal data, making compliance with relevant regulations and policies applicable. The project profile does not provide details on compliance.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "02",
+      "decision": "ask",
+      "reason": "The project uses classical ML for decision support and personal data, making an Algorithmic Impact Assessment highly relevant. The project profile does not provide this information.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "03",
+      "decision": "ask",
+      "reason": "The project uses personal data and is planned for deployment, making security approvals relevant. The project profile does not provide this information.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "04",
+      "decision": "ask",
+      "reason": "This is a standard organizational approval question for projects. The project profile does not provide this information.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "05",
+      "decision": "ask",
+      "reason": "This is a standard organizational approval question for projects. The project profile does not provide this information.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "06",
+      "decision": "skip",
+      "reason": "The project uses classical ML and trains its own models; it does not use generative AI models, open-source or proprietary.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_generative_ai",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "trains_model_from_scratch",
+          "excerpt": "true"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "07",
+      "decision": "skip",
+      "reason": "The project uses classical ML for numeric prediction and does not involve generative AI, prompts, or free text generation.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_generative_ai",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "generates_free_text",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "output_type",
+          "excerpt": "numeric price prediction"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "08",
+      "decision": "skip",
+      "reason": "The project uses classical ML for numeric prediction and does not generate free text, thus risks like hallucination or inappropriate content generation are not applicable.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_generative_ai",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "generates_free_text",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "output_type",
+          "excerpt": "numeric price prediction"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "09",
+      "decision": "ask",
+      "reason": "The project trains classical ML models from scratch, making the ability to customize models (subquestion b) relevant. Subquestion c is not applicable as it refers to language models.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "10",
+      "decision": "skip",
+      "reason": "The project does not use or procure generative AI tools or third-party models, making cost and licensing for such tools irrelevant.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_generative_ai",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "uses_third_party_model",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "uses_procurement",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "11",
+      "decision": "skip",
+      "reason": "The project does not use open-source generative AI models, making questions about their community support and documentation irrelevant.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_generative_ai",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "trains_model_from_scratch",
+          "excerpt": "true"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "12",
+      "decision": "skip",
+      "reason": "The project develops its own classical ML models internally and does not procure models or systems from a vendor, rendering vendor-provided documentation and support irrelevant.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_third_party_model",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "uses_procurement",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "trains_model_from_scratch",
+          "excerpt": "true"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "13",
+      "decision": "skip",
+      "reason": "The project profile indicates that generative AI is not used.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_generative_ai",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "14",
+      "decision": "ask",
+      "reason": "The project is in development and planned for deployment, requiring assigned responsibilities across all phases. The profile does not detail these assignments.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "15",
+      "decision": "skip",
+      "reason": "The project profile indicates that generative AI is not used.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_generative_ai",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "16",
+      "decision": "ask",
+      "reason": "The project uses AI/ML and requires human oversight, making an independent review process relevant. The profile does not describe this process.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "17",
+      "decision": "ask",
+      "reason": "This is a standard governance question for AI/ML projects. The profile does not detail stakeholder engagement practices.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "18",
+      "decision": "skip",
+      "reason": "The project profile indicates that third-party models are not used.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_third_party_model",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "19",
+      "decision": "skip",
+      "reason": "The project is not externally facing, does not interact with end-users, and does not use third-party models.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "externally_facing",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "interacts_with_end_users",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "uses_third_party_model",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "20",
+      "decision": "ask",
+      "reason": "This is a standard governance control for AI/ML projects in development. The profile does not detail sign-off procedures.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "21",
+      "decision": "ask",
+      "reason": "The project uses personal data and makes/supports decisions, making fairness a critical design consideration. The profile does not describe fairness measures.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "22",
+      "decision": "ask",
+      "reason": "This is a critical step for AI/ML projects in the Business Understanding phase. The profile does not indicate if or how this has been done.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "23",
+      "decision": "ask",
+      "reason": "The project trains AI/ML models, which can have environmental impacts. The profile does not address environmental sustainability considerations.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "24",
+      "decision": "ask",
+      "reason": "This is a standard governance and communication question for AI/ML projects. The profile does not detail knowledge transfer or stakeholder information measures.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "25",
+      "decision": "ask",
+      "reason": "The project uses personal data, requiring procedures for handling user data and ensuring privacy, even though it does not fine-tune models.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "26",
+      "decision": "ask",
+      "reason": "The project trains a model and uses data, making bias identification and mitigation in training data relevant.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "27",
+      "decision": "ask",
+      "reason": "The project uses personal data, requiring documentation of potential sensitive attributes in its datasets, even if it does not explicitly use sensitive data or fine-tune models.",
+      "confidence": 0.8,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "28",
+      "decision": "ask",
+      "reason": "The project uses personal data and engineered features, making checks for proxy variables against sensitive attributes relevant, even though it does not fine-tune models.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "29",
+      "decision": "ask",
+      "reason": "The project trains a model using data, making data bias mitigation a relevant control objective.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "30",
+      "decision": "skip",
+      "reason": "The project profile explicitly states that it does not use data from third-party vendors.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_third_party_data",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "31",
+      "decision": "skip",
+      "reason": "The project profile explicitly states that the project does not fine-tune models.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "fine_tunes_model",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "32",
+      "decision": "ask",
+      "reason": "The project trains an AI/ML model, making data quality checks and validation processes essential for accurate and reliable data.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "33",
+      "decision": "ask",
+      "reason": "The project is a classical ML model that trains from scratch, making documentation of data cleansing, transformation, and feature engineering highly relevant.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "34",
+      "decision": "ask",
+      "reason": "The project trains a classical ML model, making adversarial testing and mitigation of risks like data poisoning and evasion attacks relevant for training data.",
+      "confidence": 0.8,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "35",
+      "decision": "ask",
+      "reason": "The project trains an ML model, requiring a cybersecurity risk assessment and mitigation measures, including for data poisoning and evasion attacks.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "36",
+      "decision": "ask",
+      "reason": "The project uses personal data, making questions about its storage location, compliance with data protection regulations, and encryption highly relevant.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "37",
+      "decision": "ask",
+      "reason": "The project uses personal data, but the description of consent mechanisms is vague and does not detail how consent is obtained from data subjects, how data use is communicated, or if/how consent can be revoked.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "38",
+      "decision": "ask",
+      "reason": "The project uses personal data and trains a model, making the use of user data for retraining and associated privacy/security management relevant.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "39",
+      "decision": "ask",
+      "reason": "Standard practice for ML models planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "40",
+      "decision": "ask",
+      "reason": "Project uses classical ML models with parameters that require documentation, even if the 'temperature' example is not applicable.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "41",
+      "decision": "ask",
+      "reason": "Standard software engineering practice for model development.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "42",
+      "decision": "ask",
+      "reason": "Project trains models, requiring risk mitigation during the training stage.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "43",
+      "decision": "ask",
+      "reason": "Evaluating robustness against adversarial attacks and drift is relevant for classical ML models intended for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "44",
+      "decision": "ask",
+      "reason": "The project uses personal data and makes decisions, making adversarial testing for bias and discrimination relevant, despite generative AI examples.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "45",
+      "decision": "ask",
+      "reason": "The project produces numeric predictions, and ensuring their validity and robustness is a key development concern.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "46",
+      "decision": "ask",
+      "reason": "Comprehensive testing is required for ML models planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "47",
+      "decision": "ask",
+      "reason": "Project uses personal data and makes decisions, requiring testing for biases and ensuring fairness.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "48",
+      "decision": "ask",
+      "reason": "Version control is a standard and essential practice for ML model and codebase development.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "49",
+      "decision": "skip",
+      "reason": "Project does not use generative AI or LLMs, so jailbreaking and prompt injection attacks are not applicable.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_generative_ai",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "uses_llm",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "50",
+      "decision": "skip",
+      "reason": "Project does not use information retrieval systems.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_information_retrieval",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "51",
+      "decision": "skip",
+      "reason": "Project does not use information retrieval systems.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_information_retrieval",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "52",
+      "decision": "skip",
+      "reason": "Project does not use information retrieval systems.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_information_retrieval",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "53",
+      "decision": "ask",
+      "reason": "Security protocols for the development environment are essential for any AI system.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "54",
+      "decision": "skip",
+      "reason": "The project is for internal analytical use only and does not generate free text, so it does not 'create information that will require fact checking'. It is also not 'public facing'.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "externally_facing",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "generates_free_text",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "project_description",
+          "excerpt": "intended for internal analytical use, producing numeric price predictions"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "55",
+      "decision": "skip",
+      "reason": "The project is not externally facing.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "externally_facing",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "56",
+      "decision": "skip",
+      "reason": "The project is not externally facing.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "externally_facing",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "57",
+      "decision": "ask",
+      "reason": "This question is about documentation of the AI pipeline and responsible AI framework, which is relevant for a project planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "58",
+      "decision": "ask",
+      "reason": "This question is about providing clear guidelines for the AI system's use and limitations, which is relevant for a project planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "59",
+      "decision": "ask",
+      "reason": "While the project is for internal analytical use and does not directly interact with end-users, internal users will still consume its outputs and may require a feedback mechanism. The project is planned for deployment.",
+      "confidence": 0.8,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "60",
+      "decision": "ask",
+      "reason": "This question is about incident management post-deployment, which is relevant for a project planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "61",
+      "decision": "ask",
+      "reason": "This question is about explainability and interpretability, which is relevant for a classical ML model that makes or supports decisions and requires human oversight.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "62",
+      "decision": "ask",
+      "reason": "This question is about providing explanations for predictions, which is relevant for a classical ML model that makes or supports decisions and is planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "63",
+      "decision": "ask",
+      "reason": "This question is about measuring fairness in production, which is relevant for a classical ML model using personal data and planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "64",
+      "decision": "ask",
+      "reason": "This question is about continuous documentation of usage requirements, which is relevant for a project planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "65",
+      "decision": "skip",
+      "reason": "The project produces numeric price predictions, does not generate free text, and does not use sensitive data. The risk of copyrighted or sensitive data in its output is negligible.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "generates_free_text",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "output_type",
+          "excerpt": "numeric price prediction"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "uses_sensitive_data",
+          "excerpt": "false"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "66",
+      "decision": "ask",
+      "reason": "This question is about user consent for personal data, which is relevant as the project uses personal data and is planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "67",
+      "decision": "ask",
+      "reason": "This question is about accountability for deployment, which is relevant for a project planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "68",
+      "decision": "ask",
+      "reason": "This question is about governance structure for deployment, which is relevant for a project planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "69",
+      "decision": "ask",
+      "reason": "This question is about documenting capabilities and limitations, which is relevant for internal users of a system that makes or supports decisions and requires human oversight.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "70",
+      "decision": "ask",
+      "reason": "This question is about documenting training data and risk mitigation, which is relevant for a classical ML project that trains a model using personal data and is planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "71",
+      "decision": "ask",
+      "reason": "This question is about comprehensive documentation of the AI system, which is relevant for a project planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "72",
+      "decision": "ask",
+      "reason": "This question is about updating documentation, which is relevant for a project planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "73",
+      "decision": "skip",
+      "reason": "The project is for internal analytical use and does not interact with end-users, so a system for escalating complex queries from end-users is not applicable.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "interacts_with_end_users",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "project_description",
+          "excerpt": "intended for internal analytical use"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "74",
+      "decision": "ask",
+      "reason": "This question is about adversarial testing for vulnerabilities, which is relevant for a classical ML project planned for deployment.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "75",
+      "decision": "skip",
+      "reason": "The project is for internal analytical use, not externally facing, and does not interact with end-users. It produces numeric output, so 'features that cater to diverse user demographics' in the typical UI/UX sense are not applicable.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "externally_facing",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "interacts_with_end_users",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "output_type",
+          "excerpt": "numeric price prediction"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "76",
+      "decision": "skip",
+      "reason": "The project is for internal analytical use, not externally facing, and does not interact with end-users. The subquestions regarding accessibility features (screen readers, keyboard navigation) and multilingual support are not applicable to a model producing numeric output for internal analysts.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "externally_facing",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "interacts_with_end_users",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "output_type",
+          "excerpt": "numeric price prediction"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "77",
+      "decision": "ask",
+      "reason": "The project is planned for deployment and requires monitoring for performance, drift, and risks, but the profile does not describe the monitoring system.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "78",
+      "decision": "ask",
+      "reason": "The project is planned for deployment and requires regular analysis of model outputs for consistency, but the profile does not describe the metrics or process.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "79",
+      "decision": "skip",
+      "reason": "The project uses classical ML for numeric prediction and does not involve generative AI or user prompts.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "project_profile",
+          "reference": "uses_generative_ai",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "generates_free_text",
+          "excerpt": "false"
+        },
+        {
+          "source_type": "project_profile",
+          "reference": "output_type",
+          "excerpt": "numeric price prediction"
+        }
+      ],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "80",
+      "decision": "ask",
+      "reason": "Security vulnerability management and patching processes are critical for a deployed system, but the profile does not describe them.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "81",
+      "decision": "ask",
+      "reason": "The project uses personal data and is planned for deployment, requiring security incident monitoring, response, data retention policies, and data breach protocols. The profile does not describe these.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "82",
+      "decision": "ask",
+      "reason": "Fail-safe mechanisms are important for a deployed system that makes or supports decisions, but the profile does not describe them.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "83",
+      "decision": "ask",
+      "reason": "The project uses personal data, requiring details on data storage, retention, and privacy compliance, which are not provided in the profile.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "84",
+      "decision": "ask",
+      "reason": "The project uses personal data and requires ongoing monitoring of data security and retention policies, but the profile does not describe these mechanisms.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "85",
+      "decision": "ask",
+      "reason": "The project is planned for deployment and requires metrics for continuous improvement and a process for incorporating internal user feedback, which are not described in the profile.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "86",
+      "decision": "ask",
+      "reason": "Adversarial testing is a relevant security practice for identifying vulnerabilities in a deployed classical ML system, but the profile does not describe such plans.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "87",
+      "decision": "ask",
+      "reason": "Identifying and managing unintended risks is crucial for a deployed system, but the profile does not describe the process.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    },
+    {
+      "question_id": "88",
+      "decision": "ask",
+      "reason": "Mechanisms for maintaining regulatory compliance are essential for a deployed system, but the profile does not describe them.",
+      "confidence": 0.9,
+      "evidence": [],
+      "clarification_question": null,
+      "target_profile_field": null,
+      "extracted_answer": null,
+      "decision_source": "llm"
+    }
+  ],
+  "total_questions": 88
+}

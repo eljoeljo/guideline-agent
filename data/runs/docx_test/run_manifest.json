@@ -1,0 +1,28 @@
+{
+  "project_id": "housing_project_brief",
+  "status": "ready_for_interview",
+  "source_document": "data/runs/docx_test/source_document.docx",
+  "ingested_document": "data/runs/docx_test/ingested_document.json",
+  "draft_project_profile": "data/runs/docx_test/draft_project_profile.json",
+  "completed_project_profile": "data/runs/docx_test/completed_project_profile.json",
+  "active_profile": "data/runs/docx_test/draft_project_profile.json",
+  "source_file_type": "docx",
+  "extracted_blocks": 24,
+  "ingestion_warnings": [],
+  "profile_status_counts": {
+    "explicit": 31,
+    "inferred": 2,
+    "unresolved": 3
+  },
+  "remaining_clarification_groups": 3,
+  "remaining_unresolved_fields": 3,
+  "applicability_plan": "data/runs/docx_test/applicability_plan.json",
+  "user_responses": "data/runs/docx_test/user_responses.json",
+  "decision_trace": "data/runs/docx_test/decision_trace.jsonl",
+  "operational_project_profile": "data/runs/docx_test/project_profile.json",
+  "decision_counts": {
+    "ask": 62,
+    "skip": 25,
+    "answered_from_project": 1
+  }
+}

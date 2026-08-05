@@ -1,0 +1,23 @@
+{
+  "q_09": {
+    "answer": "The models are trained from scratch to suit specific business requirements, inherently customizing them. Subquestion c regarding language models is not applicable as the project does not use language models.",
+    "answer_source": "project_context",
+    "question_id": "09",
+    "item_type": "checklist_question",
+    "answer_quality": "extracted"
+  },
+  "q_13": {
+    "answer": "Yes, the problem is being resolved without generative AI, using classical ML.",
+    "answer_source": "project_context",
+    "question_id": "13",
+    "item_type": "checklist_question",
+    "answer_quality": "extracted"
+  },
+  "q_01": {
+    "answer": "yes",
+    "answer_source": "user",
+    "question_id": "01",
+    "item_type": "checklist_question",
+    "answer_quality": "complete"
+  }
+}

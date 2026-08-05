@@ -10,7 +10,7 @@ from google.adk.tools import ToolContext
 
 from tools import question_loader, response_store
 from tools.applicability_engine import (
-    PLAN_PATH,
+    get_default_plan_path,
     load_project_profile,
     replan_questions,
     save_project_profile,
@@ -45,22 +45,26 @@ def _load_plan(tool_context: ToolContext) -> dict[str, Any]:
         # The current in-memory plan is the authoritative source during a run.
         return plan
 
-    if not PLAN_PATH.exists():
-        raise FileNotFoundError(
-            "No applicability plan exists. Build the plan first."
-        )
+    plan_path = get_default_plan_path()
 
-    raw_plan = PLAN_PATH.read_text(encoding="utf-8")
+    if not plan_path.exists():
+        raise FileNotFoundError(
+        "No applicability plan exists for the active workspace. "
+        f"Expected: {plan_path}"
+    )
+
+    raw_plan = plan_path.read_text(encoding="utf-8")
+    
     if not raw_plan.strip():
         raise ValueError(
-            f"Applicability plan file {PLAN_PATH} is empty. Rebuild it."
+            f"Applicability plan file {plan_path} is empty. Rebuild it."
         )
 
     try:
         plan = json.loads(raw_plan)
     except json.JSONDecodeError as exc:
         raise ValueError(
-            f"Applicability plan file {PLAN_PATH} is malformed JSON."
+            f"Applicability plan file {plan_path} is malformed JSON."
         ) from exc
 
     tool_context.state[PLAN_STATE_KEY] = plan

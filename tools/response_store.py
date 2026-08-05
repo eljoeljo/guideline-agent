@@ -9,18 +9,19 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from typing import Any, Mapping, Optional
+from tools.run_context import get_run_paths
 
 # Default file path for response persistence when no explicit path is provided.
-DEFAULT_RESPONSES_PATH = (
-    Path(__file__).resolve().parents[1] / "data" / "user_responses.json"
-)
-
+def get_default_responses_path() -> Path:
+    """Return the response file for the active project workspace."""
+    
+    return get_run_paths().responses
 
 def _resolve_path(path: Optional[Path | str] = None) -> Path:
     """Resolve a path fallback to the default responses file."""
     
     if path is None:
-        return DEFAULT_RESPONSES_PATH
+        return get_default_responses_path()
 
     return Path(path)
 
@@ -102,7 +103,7 @@ def clear_responses(path: Optional[Path | str] = None) -> dict[str, Any]:
 
 
 __all__ = [
-    "DEFAULT_RESPONSES_PATH",
+    "get_default_responses_path",
     "load_responses",
     "save_responses",
     "set_response",

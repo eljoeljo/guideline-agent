@@ -38,5 +38,6 @@
     "Linear Regression",
     "Random Forest",
     "XGBoost"
-  ]
+  ],
+  "data_acquisition_and_consent_mechanism": "it is obtained by the developers and the consent mechanisms in place are strict security controls put in place by the developer"
 }
